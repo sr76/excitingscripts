@@ -4,6 +4,12 @@ import sys
 from lxml import etree
 import xml_parsing_tools as xpt
 
+# This functions parses the files input.xml and the output 2D.XML from the plot2d element
+# and returns the vectors r[ngrid1][ngrid2], rl[ngrid1][ngrid2], and func[ngrid1][ngrid2],
+# which contain, respectively, the cartesian coordinates of the mesh in the parallelogram,
+# the lattice coordinates of the mesh and the function values.
+
+
 def parse_plot2d(inputxmlpath,plot2dxmlpath):
 
     inputtree = etree.parse(inputxmlpath)
@@ -19,9 +25,9 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
     delta.append(xpt.attrib2float(plot2dtree,'/plot2d/grid/axis[1]/@deltas')[0])
     delta.append(xpt.attrib2float(plot2dtree,'/plot2d/grid/axis[2]/@deltas')[0])
     textrows =  plot2dtree.xpath('/plot2d/function/row')
-    rows = []
+    func = []
     for row in textrows:
-        rows.append(xpt.text2float(row))
+        func.append(xpt.text2float(row))
     # Parse plot2d file
     """
     print grid
@@ -29,7 +35,7 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
     print endpoint[0]
     print endpoint[1]
     print delta
-    print rows[0]
+    print func[0]
     """ 
     # Parse input.xml
     try:
@@ -55,7 +61,7 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
     for i in range(2):
         d.append([])
         for j in range(3):
-            d[i].append(enpoint[i][j]-origin[j])
+            d[i].append(endpoint[i][j]-origin[j])
             
     rl=[]
     for i in range(grid[0]):
@@ -71,10 +77,13 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
         for j in range(grid[1]):
             r[i].append([])
             for k in range(3):
+                x = 0
                 for l in range(3):
-                    x = rl[i][j][l]*basevects[l][k]
+                    x = x + rl[i][j][l]*basevects[l][k]
                 r[i][j].append(x)
             print r[i][j]
+
+    return r, rl, func
 
 rootdir = "/home1/srigamonti/projects/stm/runs/97/"
 parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
