@@ -27,6 +27,25 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
     print endpoint[1]
     print rows[0]
     
+    # Parse input.xml
+    try:
+        scale = xpt.attrib2float(inputtree,'/input/structure/crystal/@scale')[0]
+    except:
+        scale = 1.0
+    try:
+        stretch = xpt.attrib2float(inputtree,'/input/structure/crystal/@stretch')
+    except:
+        stretch = [1.0,1.0,1.0]
+        
+    textbasevects = inputtree.xpath('/input/structure/crystal/basevect')
+    basevects = []
+    for basevect in textbasevects:
+        basevects.append(xpt.text2float(basevect))
+        
+    for i in range(3):
+        for j in range(3):
+            basevects[i][j] = scale * stretch[i] * basevects[i][j]   
+    # Parse input.xml
     
     
 rootdir = "/home1/srigamonti/projects/stm/runs/97/"
