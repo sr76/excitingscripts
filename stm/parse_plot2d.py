@@ -50,13 +50,32 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
         for j in range(3):
             basevects[i][j] = scale * stretch[i] * basevects[i][j]   
     # Parse input.xml
-    """
+    
+    d = []
+    for i in range(2):
+        d.append([])
+        for j in range(3):
+            d[i].append(enpoint[i][j]-origin[j])
+            
     rl=[]
+    for i in range(grid[0]):
+        rl.append([])
+        for j in range(grid[1]):
+            rl[i].append([])
+            for lat in range(3):
+                rl[i][j].append( origin[lat] +  i * d[0][lat]/(grid[0]*1.0-1.0) +  j * d[1][lat]/(grid[1]*1.0-1.0) )
+
     r=[]
     for i in range(grid[0]):
+        r.append([])
         for j in range(grid[1]):
-            a = origin[0] + rows 
-    """
+            r[i].append([])
+            for k in range(3):
+                for l in range(3):
+                    x = rl[i][j][l]*basevects[l][k]
+                r[i][j].append(x)
+            print r[i][j]
+
 rootdir = "/home1/srigamonti/projects/stm/runs/97/"
 parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
 
