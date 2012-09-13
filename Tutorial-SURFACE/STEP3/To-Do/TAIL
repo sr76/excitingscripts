@@ -1,0 +1,11 @@
+    </species>
+  </structure>
+  <groundstate ngridk="2 2 1"
+               xctype="GGAPerdew-Burke-Ernzerhof"
+               rgkmax="8.0d0">
+  </groundstate>
+    <properties>
+    </properties>
+</input>
+
+

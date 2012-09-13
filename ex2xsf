@@ -1,0 +1,2 @@
+#!/bin/bash
+xsltproc /home1/srigamonti/exciting/xml/inputfileconverter/xmlinput2xsf.xsl $1

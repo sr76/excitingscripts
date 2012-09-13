@@ -1,0 +1,35 @@
+<input >
+ 
+  <title>Surface</title>
+ 
+  <structure speciespath="/users/sol/giulio/git/exciting2/species">
+    <crystal>
+      <basevect>4.83664720823603 0.00000000000000 0.00000000000000</basevect>
+      <basevect>2.41832360411802 4.18865935147549 0.00000000000000</basevect>
+      <basevect>0.00000000000000 0.00000000000000 11.67766373375706</basevect>
+    </crystal>
+    <species chemicalSymbol="Cu" speciesfile="Cu.xml">
+      <atom coord="0.33333333333333 0.33333333333333 0.16182397449393"/>
+      <atom coord="0.66666666666667 0.66666666666667 0.50000000000000"/>
+      <atom coord="0.00000000000000 0.00000000000000 0.83817602550607"/>
+    </species>
+  </structure>
+  <groundstate do="skip" ngridk="2 2 1"
+               xctype="GGAPerdew-Burke-Ernzerhof"
+               rgkmax="8.0d0">
+  </groundstate>
+    <properties>
+
+        <bandstructure>
+            <plot1d>
+                <path steps="100">
+                    <point coord="0.50000   0.50000   0.00000" label="X"></point>
+                    <point coord="0.00000   0.50000   0.00000" label="L"></point>
+                    <point coord="0.00000   0.00000   0.00000" label="GAMMA"></point>
+                </path>
+            </plot1d>
+
+        </bandstructure>
+        <dos nsmdos="0" winddos="-5.67d0 5.67d0"/>
+    </properties>
+</input>

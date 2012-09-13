@@ -1,0 +1,32 @@
+<input>
+  <title>Copper: Bulk Calculations</title>
+  <structure speciespath="http://xml.exciting-code.org/species/">
+    <crystal scale="3.43">
+      <basevect> 1.0     1.0     0.0 </basevect>
+      <basevect> 0.0     1.0     1.0 </basevect>
+      <basevect> 1.0     0.0     1.0</basevect>
+    </crystal>
+    <species speciesfile="Cu.xml" >
+      <atom coord="   0.0  0.0  0.0 "/>
+    </species>
+  </structure>
+  <groundstate do="skip" ngridk="10 10 10"
+               xctype="GGAPerdew-Burke-Ernzerhof"
+               rgkmax="8.0d0">
+  </groundstate>
+    <properties>
+        <bandstructure>
+            <plot1d>
+                <path steps="100">
+                    <point coord="0.00000   0.00000   0.00000" label="GAMMA"></point>
+                    <point coord="0.50000   0.50000   0.00000" label="X"></point>
+                    <point coord="0.50000   0.75000   0.25000" label="W"></point>
+                    <point coord="0.00000   0.50000   0.00000" label="L"></point>
+                    <point coord="0.00000   0.00000   0.00000" label="GAMMA"></point>
+                </path>
+            </plot1d>
+        </bandstructure>
+        <dos nsmdos="0" winddos="-5.67d0 5.67d0"/>
+	</properties>
+
+</input>

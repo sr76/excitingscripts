@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+from ase.tasks.main import main
+
+main()

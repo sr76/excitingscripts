@@ -1,0 +1,4478 @@
++-----------------------------------------------------------+
+| EXCITING helium    (12.07.09) started                     |
+| version hash id: 05b7337f1904f9383dfefb4fe7cb058e75a64c42 |
++-----------------------------------------------------------+
+ 
+Date (YYYY-MM-DD) : 2012-07-12
+Time (hh:mm:ss)   : 12:39:23
+ 
+All units are atomic (Hartree, Bohr, etc.)
+ 
++-------------------------------------------------+
+| Ground-state run starting from atomic densities |
++-------------------------------------------------+
+ 
+Lattice vectors :
+   4.850544084       0.000000000       0.000000000    
+   2.425272042       4.200694399       0.000000000    
+   0.000000000       0.000000000       46.07742597    
+ 
+Reciprocal lattice vectors :
+   1.295356809     -0.7478746025       0.000000000    
+   0.000000000       1.495749205       0.000000000    
+   0.000000000       0.000000000      0.1363614650    
+ 
+Unit cell volume      :    938.8576595    
+Brillouin zone volume :   0.2642042816    
+ 
+Species :    1 (Cu)
+ parameters loaded from : Cu.xml
+ name : copper
+ nuclear charge    :   -29.00000000    
+ electronic charge :    29.00000000    
+ atomic mass :    115837.2717    
+ muffin-tin radius :    2.000000000    
+ number of radial points in muffin-tin :    497
+ atomic positions (lattice), magnetic fields (Cartesian) :
+   1 :   0.00000000  0.00000000  0.00000000	  0.00000000  0.00000000  0.00000000
+   2 :   0.33333333  0.33333333  0.08595212	  0.00000000  0.00000000  0.00000000
+   3 :   0.66666667  0.66666667  0.17190425	  0.00000000  0.00000000  0.00000000
+   4 :   0.00000000  0.00000000  0.25785637	  0.00000000  0.00000000  0.00000000
+   5 :   0.33333333  0.33333333  0.34380850	  0.00000000  0.00000000  0.00000000
+ 
+Total number of atoms per unit cell :    5
+ 
+Spin treatment :
+ spin-unpolarised
+ 
+Number of Bravais lattice symmetries :   24
+Number of crystal symmetries	    :   12
+ 
+k-point grid :      4     4     1
+k-point offset :    0.000000000       0.000000000       0.000000000    
+k-point set is reduced with crystal symmetries
+Total number of k-points :        4
+ 
+Smallest muffin-tin radius times maximum |G+k| :    8.000000000    
+Species with smallest (or selected) muffin-tin radius :    1 (Cu)
+Maximum |G+k| for APW functions	     :    4.000000000    
+Maximum |G| for potential and density :    12.00000000    
+Polynomial order for pseudocharge density :    9
+ 
+G-vector grid sizes :     20    20   180
+Total number of G-vectors :    27465
+ 
+Maximum angular momentum used for
+ APW functions                     :   10
+ computing H and O matrix elements :    5
+ potential and density             :    6
+ inner part of muffin-tin          :    2
+ 
+Total nuclear charge    :   -145.0000000    
+Total core charge       :    60.00000000    
+Total valence charge    :    85.00000000    
+Total excess charge     :    0.000000000    
+Total electronic charge :    145.0000000    
+ 
+Effective Wigner radius, r_s :    1.156239266    
+ 
+Number of empty states	      :    5
+Total number of valence states :   48
+ 
+Total number of local-orbitals :   95
+ 
+Exchange-correlation type :   20
+ Perdew-Burke-Ernzerhof, Phys. Rev. Lett. 77, 3865 (1996)
+ Generalised gradient approximation (GGA)
+ 
+Smearing scheme :
+ Gaussian
+Smearing width :   0.1000000000E-02
+ 
+Radial integration step length :    4
+ 
+Density and potential initialised from atomic data
+ Using Multisecant Broyden potential mixing (2)
+ 
++------------------------------+
+| Self-consistent loop started |
++------------------------------+
+ 
++-------------------------+
+| Iteration number :    1 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+ 
+Energies :
+ Fermi                       :     0.357219093623E-01
+ sum of eigenvalues          :     -4764.87298123    
+ electronic kinetic          :      8431.62261251    
+ core electron kinetic       :      7528.00270843    
+ Coulomb                     :     -16318.2497463    
+ Coulomb potential           :     -12761.6775073    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33957.5434567    
+ Hartree                     :      10597.9329747    
+ Madelung                    :     -9937.41099265    
+ xc potential                :     -434.818086443    
+ exchange                    :     -327.672213418    
+ correlation                 :     -6.95172198130    
+ total energy                :     -8221.25106919    
+ 
+Density of states at Fermi energy :    192.8285951    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7773562670E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.04949140    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    26.86357947    
+   atom    2                 :    27.03754460    
+   atom    3                 :    27.14826045    
+   atom    4                 :    27.03754460    
+   atom    5                 :    26.86357947    
+ total in muffin-tins        :    134.9505086    
+ total charge                :    145.0000000    
+ 
+Time (CPU seconds) :        23.33
+ 
++-------------------------+
+| Iteration number :    2 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+ 
+Energies :
+ Fermi                       :     0.727940087208E-02
+ sum of eigenvalues          :     -4821.44001257    
+ electronic kinetic          :      8607.73727153    
+ core electron kinetic       :      7504.55176832    
+ Coulomb                     :     -16447.4460367    
+ Coulomb potential           :     -12978.2145625    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33999.3989824    
+ Hartree                     :      10510.5922099    
+ Madelung                    :     -9958.33875549    
+ xc potential                :     -450.962721605    
+ exchange                    :     -339.828487920    
+ correlation                 :     -7.04915236589    
+ total energy                :     -8186.58640549    
+ 
+Density of states at Fermi energy :    510.1844016    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5134372797E-02
+ valence                     :    85.00000000    
+ interstitial                :    6.109603786    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    28.61185227    
+   atom    2                 :    27.88418475    
+   atom    3                 :    25.89832217    
+   atom    4                 :    27.88418475    
+   atom    5                 :    28.61185227    
+ total in muffin-tins        :    138.8903962    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.044947753     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    34.66466370     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1134587499     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :        44.97
+ 
++-------------------------+
+| Iteration number :    3 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1167    0.0233
+ 
+Energies :
+ Fermi                       :    -0.306932718738E-01
+ sum of eigenvalues          :     -4839.12078452    
+ electronic kinetic          :      7507.98993287    
+ core electron kinetic       :      7433.58748956    
+ Coulomb                     :     -16151.1855500    
+ Coulomb potential           :     -11922.3430846    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34462.7494868    
+ Hartree                     :      11270.2032011    
+ Madelung                    :     -10190.0140077    
+ xc potential                :     -424.767632818    
+ exchange                    :     -319.942776778    
+ correlation                 :     -7.08815951356    
+ total energy                :     -8970.22655339    
+ 
+Density of states at Fermi energy :    533.5688462    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6599637667E-02
+ valence                     :    85.00000000    
+ interstitial                :    17.62094516    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    22.48179485    
+   atom    2                 :    29.80402538    
+   atom    3                 :    22.80741438    
+   atom    4                 :    29.80402538    
+   atom    5                 :    22.48179485    
+ total in muffin-tins        :    127.3790548    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    5.283231694     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    783.6401479     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2859278020     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :        65.78
+ 
++-------------------------+
+| Iteration number :    4 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.469097886662    
+ sum of eigenvalues          :     -4699.89430208    
+ electronic kinetic          :      10173.8398296    
+ core electron kinetic       :      7539.04119168    
+ Coulomb                     :     -15764.8041566    
+ Coulomb potential           :     -14472.2436420    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -31140.0861426    
+ Hartree                     :      8333.92125031    
+ Madelung                    :     -8528.68233561    
+ xc potential                :     -401.490489647    
+ exchange                    :     -302.583031592    
+ correlation                 :     -6.83651509161    
+ total energy                :     -5900.38387372    
+ 
+Density of states at Fermi energy :    2.450324621    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1161455131E-01
+ valence                     :    85.00000000    
+ interstitial                :    28.44109653    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    28.66156590    
+   atom    2                 :    18.99604753    
+   atom    3                 :    21.24367660    
+   atom    4                 :    18.99604753    
+   atom    5                 :    28.66156590    
+ total in muffin-tins        :    116.5589035    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    12.28621117     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    3069.842680     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4107406638     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :        88.73
+ 
++-------------------------+
+| Iteration number :    5 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.299456385799    
+ sum of eigenvalues          :     -4803.49581290    
+ electronic kinetic          :      9569.09907428    
+ core electron kinetic       :      7487.60445811    
+ Coulomb                     :     -15798.6173146    
+ Coulomb potential           :     -13962.0375340    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -31717.9185666    
+ Hartree                     :      8877.94051631    
+ Madelung                    :     -8817.59854759    
+ xc potential                :     -410.557353206    
+ exchange                    :     -309.289404294    
+ correlation                 :     -6.97138578207    
+ total energy                :     -6545.77903038    
+ 
+Density of states at Fermi energy :    192.8274014    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7668694270E-02
+ valence                     :    85.00000000    
+ interstitial                :    24.62523934    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    31.02212940    
+   atom    2                 :    19.59698917    
+   atom    3                 :    19.13652352    
+   atom    4                 :    19.59698917    
+   atom    5                 :    31.02212940    
+ total in muffin-tins        :    120.3747607    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    11.56693108     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    645.3951567     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1757500708     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       113.17
+ 
++-------------------------+
+| Iteration number :    6 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.262370556279    
+ sum of eigenvalues          :     -4802.12204119    
+ electronic kinetic          :      9581.12561683    
+ core electron kinetic       :      7504.85806739    
+ Coulomb                     :     -15759.7773236    
+ Coulomb potential           :     -13973.4828169    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -31628.7933016    
+ Hartree                     :      8827.65524236    
+ Madelung                    :     -8773.03591511    
+ xc potential                :     -409.764841095    
+ exchange                    :     -308.669159865    
+ correlation                 :     -6.98834675289    
+ total energy                :     -6494.30921337    
+ 
+Density of states at Fermi energy :    265.0092451    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.8168640124E-02
+ valence                     :    85.00000000    
+ interstitial                :    25.25231978    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    31.15329702    
+   atom    2                 :    19.52960693    
+   atom    3                 :    18.38187231    
+   atom    4                 :    19.52960693    
+   atom    5                 :    31.15329702    
+ total in muffin-tins        :    119.7476802    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    12.11166753     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    51.46981701     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1992010578E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       138.37
+ 
++-------------------------+
+| Iteration number :    7 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.214199372093E-01
+ sum of eigenvalues          :     -4850.12837237    
+ electronic kinetic          :      8926.15254132    
+ core electron kinetic       :      7472.31724334    
+ Coulomb                     :     -16188.6733529    
+ Coulomb potential           :     -13341.3953260    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33118.6728511    
+ Hartree                     :      9888.63876258    
+ Madelung                    :     -9517.97568987    
+ xc potential                :     -434.885587712    
+ exchange                    :     -327.570868325    
+ correlation                 :     -7.08883362525    
+ total energy                :     -7597.18051348    
+ 
+Density of states at Fermi energy :    420.5511364    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6144141918E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.16653605    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    29.36894574    
+   atom    2                 :    28.04148121    
+   atom    3                 :    18.01261005    
+   atom    4                 :    28.04148121    
+   atom    5                 :    29.36894574    
+ total in muffin-tins        :    132.8334639    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    6.041949761     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1102.871300     (  0.1000000000E-03)
+Charge distance (target)                   :   0.3107044475     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       162.10
+ 
++-------------------------+
+| Iteration number :    8 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.868240117883E-01
+ sum of eigenvalues          :     -4833.78057356    
+ electronic kinetic          :      8971.80192489    
+ core electron kinetic       :      7496.00858147    
+ Coulomb                     :     -16186.4113176    
+ Coulomb potential           :     -13373.4181563    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33082.1259502    
+ Hartree                     :      9854.35389696    
+ Madelung                    :     -9499.70223942    
+ xc potential                :     -432.164342120    
+ exchange                    :     -325.502857707    
+ correlation                 :     -7.10054366897    
+ total energy                :     -7547.21279406    
+ 
+Density of states at Fermi energy :    773.6966602    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7269723050E-02
+ valence                     :    85.00000000    
+ interstitial                :    14.36569420    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    29.87004760    
+   atom    2                 :    21.46929899    
+   atom    3                 :    27.95561261    
+   atom    4                 :    21.46929899    
+   atom    5                 :    29.87004760    
+ total in muffin-tins        :    130.6343058    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    5.595171817     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    49.96771942     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1847139260     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       186.68
+ 
++-------------------------+
+| Iteration number :    9 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.152275994999    
+ sum of eigenvalues          :     -4831.03126150    
+ electronic kinetic          :      8296.29036906    
+ core electron kinetic       :      7491.46891516    
+ Coulomb                     :     -16427.3881991    
+ Coulomb potential           :     -12677.7746025    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34259.7232671    
+ Hartree                     :      10790.9743323    
+ Madelung                    :     -10088.5008978    
+ xc potential                :     -449.547028069    
+ exchange                    :     -338.773641357    
+ correlation                 :     -7.03898745904    
+ total energy                :     -8476.91045883    
+ 
+Density of states at Fermi energy :    265.0161687    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5512600254E-02
+ valence                     :    85.00000000    
+ interstitial                :    5.203126882    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.89608223    
+   atom    2                 :    27.80434785    
+   atom    3                 :    28.39601296    
+   atom    4                 :    27.80434785    
+   atom    5                 :    27.89608223    
+ total in muffin-tins        :    139.7968731    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.8258336016     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    929.6976648     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2582216150     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       210.51
+ 
++-------------------------+
+| Iteration number :   10 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.2917    0.0583
+ 
+Energies :
+ Fermi                       :     0.786278354421E-01
+ sum of eigenvalues          :     -4816.08640142    
+ electronic kinetic          :      8678.89551081    
+ core electron kinetic       :      7493.75774543    
+ Coulomb                     :     -16280.1993587    
+ Coulomb potential           :     -13060.8274218    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33582.2927671    
+ Hartree                     :      10260.7326727    
+ Madelung                    :     -9749.78564785    
+ xc potential                :     -434.154490425    
+ exchange                    :     -327.121837977    
+ correlation                 :     -6.99645267613    
+ total energy                :     -7935.42213859    
+ 
+Density of states at Fermi energy :    385.6566573    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6208645646E-02
+ valence                     :    85.00000000    
+ interstitial                :    11.78416860    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    28.29493399    
+   atom    2                 :    28.27431060    
+   atom    3                 :    20.07734221    
+   atom    4                 :    28.27431060    
+   atom    5                 :    28.29493399    
+ total in muffin-tins        :    133.2158314    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    3.176265790     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    541.4883202     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1381944266     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       233.79
+ 
++-------------------------+
+| Iteration number :   11 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1017    0.0203
+ 
+Energies :
+ Fermi                       :    -0.204748224531    
+ sum of eigenvalues          :     -4823.09490515    
+ electronic kinetic          :      8259.02855573    
+ core electron kinetic       :      7493.92290345    
+ Coulomb                     :     -16397.4834491    
+ Coulomb potential           :     -12636.6567970    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34241.0315726    
+ Hartree                     :      10802.1873878    
+ Madelung                    :     -10079.1550506    
+ xc potential                :     -445.466663871    
+ exchange                    :     -335.700343185    
+ correlation                 :     -7.00920350492    
+ total energy                :     -8481.16444005    
+ 
+Density of states at Fermi energy :   0.1158872817E-09
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6103634772E-02
+ valence                     :    85.00000000    
+ interstitial                :    6.400517642    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.46522388    
+   atom    2                 :    27.44186949    
+   atom    3                 :    28.78529563    
+   atom    4                 :    27.44186949    
+   atom    5                 :    27.46522388    
+ total in muffin-tins        :    138.5994824    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.104836318     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    545.7423015     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1233436807     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       254.19
+ 
++-------------------------+
+| Iteration number :   12 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.2097    0.0419
+ 
+Energies :
+ Fermi                       :     0.747717589164E-01
+ sum of eigenvalues          :     -4812.08374188    
+ electronic kinetic          :      8641.57348495    
+ core electron kinetic       :      7489.00096902    
+ Coulomb                     :     -16277.8772549    
+ Coulomb potential           :     -13020.5056542    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33617.9703270    
+ Hartree                     :      10298.7323364    
+ Madelung                    :     -9767.62442778    
+ xc potential                :     -433.151572582    
+ exchange                    :     -326.362878528    
+ correlation                 :     -6.99621098598    
+ total energy                :     -7969.66285947    
+ 
+Density of states at Fermi energy :    265.0183301    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6447774727E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.12978818    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    28.10454505    
+   atom    2                 :    28.16538934    
+   atom    3                 :    20.33034303    
+   atom    4                 :    28.16538934    
+   atom    5                 :    28.10454505    
+ total in muffin-tins        :    132.8702118    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.831048166     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    511.5015806     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1224651265     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       276.12
+ 
++-------------------------+
+| Iteration number :   13 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1035    0.0207
+ 
+Energies :
+ Fermi                       :     0.101249390572    
+ sum of eigenvalues          :     -4798.95428737    
+ electronic kinetic          :      8778.30180142    
+ core electron kinetic       :      7492.08080145    
+ Coulomb                     :     -16257.6883252    
+ Coulomb potential           :     -13146.2955448    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33451.8025770    
+ Hartree                     :      10152.7535161    
+ Madelung                    :     -9684.54055278    
+ xc potential                :     -430.960544032    
+ exchange                    :     -324.731742250    
+ correlation                 :     -6.96735025157    
+ total energy                :     -7811.08561624    
+ 
+Density of states at Fermi energy :    555.4170586    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6683612636E-02
+ valence                     :    85.00000000    
+ interstitial                :    13.00258410    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.81411991    
+   atom    2                 :    28.04096901    
+   atom    3                 :    20.28723805    
+   atom    4                 :    28.04096901    
+   atom    5                 :    27.81411991    
+ total in muffin-tins        :    131.9974159    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    3.297289600     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    158.5772432     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2667970009E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       298.56
+ 
++-------------------------+
+| Iteration number :   14 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1014    0.0203
+ 
+Energies :
+ Fermi                       :    -0.820711550507E-01
+ sum of eigenvalues          :     -4804.71881429    
+ electronic kinetic          :      8087.64060824    
+ core electron kinetic       :      7496.99666000    
+ Coulomb                     :     -16347.6527524    
+ Coulomb potential           :     -12452.6610514    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34325.3659249    
+ Hartree                     :      10936.3524368    
+ Madelung                    :     -10121.3222267    
+ xc potential                :     -439.698371161    
+ exchange                    :     -331.319445153    
+ correlation                 :     -7.00377466022    
+ total energy                :     -8598.33536400    
+ 
+Density of states at Fermi energy :   0.3647912993E-08
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6667138561E-02
+ valence                     :    85.00000000    
+ interstitial                :    8.667706122    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    26.10636998    
+   atom    2                 :    27.55557148    
+   atom    3                 :    29.00841095    
+   atom    4                 :    27.55557148    
+   atom    5                 :    26.10636998    
+ total in muffin-tins        :    136.3322939    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.174422583     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    787.2497478     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1226582603     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       320.26
+ 
++-------------------------+
+| Iteration number :   15 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1129    0.0226
+ 
+Energies :
+ Fermi                       :    -0.119001983454    
+ sum of eigenvalues          :     -4808.67732022    
+ electronic kinetic          :      8222.35970801    
+ core electron kinetic       :      7494.50480867    
+ Coulomb                     :     -16380.7089838    
+ Coulomb potential           :     -12587.9160942    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34256.2233447    
+ Hartree                     :      10834.1536252    
+ Madelung                    :     -10086.7509366    
+ xc potential                :     -443.120933988    
+ exchange                    :     -333.912186685    
+ correlation                 :     -7.01140918849    
+ total energy                :     -8499.27287162    
+ 
+Density of states at Fermi energy :   0.1158766257E-09
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6418419549E-02
+ valence                     :    85.00000000    
+ interstitial                :    7.393632442    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.37198938    
+   atom    2                 :    27.00214702    
+   atom    3                 :    28.85809474    
+   atom    4                 :    27.00214702    
+   atom    5                 :    27.37198938    
+ total in muffin-tins        :    137.6063676    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.379768274     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    99.06249237     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4230445002E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       341.82
+ 
++-------------------------+
+| Iteration number :   16 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1633    0.0327
+ 
+Energies :
+ Fermi                       :     0.168436072556    
+ sum of eigenvalues          :     -4796.32169069    
+ electronic kinetic          :      8622.10049139    
+ core electron kinetic       :      7491.73861037    
+ Coulomb                     :     -16288.8387362    
+ Coulomb potential           :     -12984.6259805    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33675.7729633    
+ Hartree                     :      10345.5734914    
+ Madelung                    :     -9796.52574595    
+ xc potential                :     -433.796201583    
+ exchange                    :     -326.852758561    
+ correlation                 :     -6.99910189005    
+ total energy                :     -8000.59010526    
+ 
+Density of states at Fermi energy :    281.4366403    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6382151602E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.09032114    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.96436105    
+   atom    2                 :    28.21300413    
+   atom    3                 :    20.55494851    
+   atom    4                 :    28.21300413    
+   atom    5                 :    27.96436105    
+ total in muffin-tins        :    132.9096789    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.551051657     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    498.6827664     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1196529231     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       364.35
+ 
++-------------------------+
+| Iteration number :   17 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1061    0.0212
+ 
+Energies :
+ Fermi                       :    -0.240134611726E-01
+ sum of eigenvalues          :     -4799.84981621    
+ electronic kinetic          :      8147.73276018    
+ core electron kinetic       :      7496.42555306    
+ Coulomb                     :     -16363.3058555    
+ Coulomb potential           :     -12506.3103639    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34303.0228184    
+ Hartree                     :      10898.3562272    
+ Madelung                    :     -10110.1506735    
+ xc potential                :     -441.272212465    
+ exchange                    :     -332.521350349    
+ correlation                 :     -6.99923967155    
+ total energy                :     -8555.09368529    
+ 
+Density of states at Fermi energy :   0.3542860606    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6489290289E-02
+ valence                     :    85.00000000    
+ interstitial                :    8.138552669    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    26.34301615    
+   atom    2                 :    27.59922452    
+   atom    3                 :    28.97696599    
+   atom    4                 :    27.59922452    
+   atom    5                 :    26.34301615    
+ total in muffin-tins        :    136.8614473    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.928015657     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    554.5035800     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1210846168     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       387.15
+ 
++-------------------------+
+| Iteration number :   18 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1212    0.0242
+ 
+Energies :
+ Fermi                       :     0.186336320639    
+ sum of eigenvalues          :     -4792.63953263    
+ electronic kinetic          :      8657.81236442    
+ core electron kinetic       :      7494.80793805    
+ Coulomb                     :     -16282.2791691    
+ Coulomb potential           :     -13017.6106794    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33629.6691302    
+ Hartree                     :      10306.0292254    
+ Madelung                    :     -9773.47382939    
+ xc potential                :     -432.841217632    
+ exchange                    :     -326.140686621    
+ correlation                 :     -6.98745527399    
+ total energy                :     -7957.59494657    
+ 
+Density of states at Fermi energy :    385.6540668    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6453804419E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.34324817    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.95561405    
+   atom    2                 :    27.95930295    
+   atom    3                 :    20.82691782    
+   atom    4                 :    27.95930295    
+   atom    5                 :    27.95561405    
+ total in muffin-tins        :    132.6567518    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.610518871     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    597.4987387     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1193690146     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       408.85
+ 
++-------------------------+
+| Iteration number :   19 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1054    0.0211
+ 
+Energies :
+ Fermi                       :     0.167912284626    
+ sum of eigenvalues          :     -4794.05443694    
+ electronic kinetic          :      8642.04686324    
+ core electron kinetic       :      7493.35277750    
+ Coulomb                     :     -16279.5318950    
+ Coulomb potential           :     -13003.1625454    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33638.6227161    
+ Hartree                     :      10317.7300853    
+ Madelung                    :     -9777.95062234    
+ xc potential                :     -432.938754768    
+ exchange                    :     -326.204977038    
+ correlation                 :     -6.99508482850    
+ total energy                :     -7970.68509367    
+ 
+Density of states at Fermi energy :    265.0052660    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6502448761E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.29887081    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.95234066    
+   atom    2                 :    28.19819948    
+   atom    3                 :    20.40004892    
+   atom    4                 :    28.19819948    
+   atom    5                 :    27.95234066    
+ total in muffin-tins        :    132.7011292    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.671513290     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    13.09014710     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1961935387E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       431.96
+ 
++-------------------------+
+| Iteration number :   20 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1048    0.0210
+ 
+Energies :
+ Fermi                       :    -0.442845063404E-01
+ sum of eigenvalues          :     -4800.25773756    
+ electronic kinetic          :      8246.39279149    
+ core electron kinetic       :      7495.77418623    
+ Coulomb                     :     -16366.7574149    
+ Coulomb potential           :     -12605.4302606    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34210.8060406    
+ Hartree                     :      10802.6878900    
+ Madelung                    :     -10064.0422846    
+ xc potential                :     -441.220268498    
+ exchange                    :     -332.485798001    
+ correlation                 :     -6.99520124558    
+ total energy                :     -8459.84562264    
+ 
+Density of states at Fermi energy :   0.1066570733E-09
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6526579446E-02
+ valence                     :    85.00000000    
+ interstitial                :    8.190048088    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.06018306    
+   atom    2                 :    26.77393604    
+   atom    3                 :    29.14171372    
+   atom    4                 :    26.77393604    
+   atom    5                 :    27.06018306    
+ total in muffin-tins        :    136.8099519    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.438455040     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    489.1605290     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1237103442     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       454.44
+ 
++-------------------------+
+| Iteration number :   21 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1563    0.0313
+ 
+Energies :
+ Fermi                       :     0.194547978451    
+ sum of eigenvalues          :     -4791.41208991    
+ electronic kinetic          :      8690.36685439    
+ core electron kinetic       :      7495.66078901    
+ Coulomb                     :     -16283.3020945    
+ Coulomb potential           :     -13048.4637410    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33600.8619193    
+ Hartree                     :      10276.1990891    
+ Madelung                    :     -9759.07022393    
+ xc potential                :     -433.315203270    
+ exchange                    :     -326.498622484    
+ correlation                 :     -6.98847726050    
+ total energy                :     -7926.42233980    
+ 
+Density of states at Fermi energy :    265.0049185    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6384633896E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.30907876    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.97664576    
+   atom    2                 :    28.10807328    
+   atom    3                 :    20.52148317    
+   atom    4                 :    28.10807328    
+   atom    5                 :    27.97664576    
+ total in muffin-tins        :    132.6909212    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.841544521     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    533.4232828     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1228263754     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       475.93
+ 
++-------------------------+
+| Iteration number :   22 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1034    0.0207
+ 
+Energies :
+ Fermi                       :     0.175310762304    
+ sum of eigenvalues          :     -4794.10322132    
+ electronic kinetic          :      8691.27212677    
+ core electron kinetic       :      7494.08413088    
+ Coulomb                     :     -16279.1584880    
+ Coulomb potential           :     -13052.2805276    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33588.7579199    
+ Hartree                     :      10268.2386961    
+ Madelung                    :     -9753.01822423    
+ xc potential                :     -433.094820489    
+ exchange                    :     -326.329210630    
+ correlation                 :     -6.98965011651    
+ total energy                :     -7921.20522201    
+ 
+Density of states at Fermi energy :    265.0048013    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6452588179E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.32771913    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    28.03667799    
+   atom    2                 :    28.10604433    
+   atom    3                 :    20.38683623    
+   atom    4                 :    28.10604433    
+   atom    5                 :    28.03667799    
+ total in muffin-tins        :    132.6722809    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.923448985     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    5.217117796     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5998965051E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       497.63
+ 
++-------------------------+
+| Iteration number :   23 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1029    0.0206
+ 
+Energies :
+ Fermi                       :    -0.617161457799E-01
+ sum of eigenvalues          :     -4802.33560597    
+ electronic kinetic          :      8237.87861105    
+ core electron kinetic       :      7494.29072031    
+ Coulomb                     :     -16371.2448698    
+ Coulomb potential           :     -12598.3445590    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34226.8666521    
+ Hartree                     :      10814.2610465    
+ Madelung                    :     -10072.0725903    
+ xc potential                :     -441.869657987    
+ exchange                    :     -332.976851732    
+ correlation                 :     -6.99794641955    
+ total energy                :     -8473.34105694    
+ 
+Density of states at Fermi energy :   0.1100582725E-09
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6477911622E-02
+ valence                     :    85.00000000    
+ interstitial                :    7.917886172    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.09241865    
+   atom    2                 :    26.89827609    
+   atom    3                 :    29.10072434    
+   atom    4                 :    26.89827609    
+   atom    5                 :    27.09241865    
+ total in muffin-tins        :    137.0821138    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.436651234     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    552.1358349     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1232543289     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       519.34
+ 
++-------------------------+
+| Iteration number :   24 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1565    0.0313
+ 
+Energies :
+ Fermi                       :     0.194896266014    
+ sum of eigenvalues          :     -4790.89870152    
+ electronic kinetic          :      8695.17072438    
+ core electron kinetic       :      7495.26682182    
+ Coulomb                     :     -16280.2650534    
+ Coulomb potential           :     -13052.9248550    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33590.3267233    
+ Hartree                     :      10268.7009341    
+ Madelung                    :     -9753.80262593    
+ xc potential                :     -433.144570903    
+ exchange                    :     -326.368555089    
+ correlation                 :     -6.98839258862    
+ total energy                :     -7918.45127672    
+ 
+Density of states at Fermi energy :    265.0053262    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6423531260E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.34808367    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.96215289    
+   atom    2                 :    28.15774603    
+   atom    3                 :    20.41211848    
+   atom    4                 :    28.15774603    
+   atom    5                 :    27.96215289    
+ total in muffin-tins        :    132.6519163    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.909532083     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    554.8897802     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1230356615     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       541.02
+ 
++-------------------------+
+| Iteration number :   25 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1030    0.0206
+ 
+Energies :
+ Fermi                       :     0.186928293467    
+ sum of eigenvalues          :     -4791.89431814    
+ electronic kinetic          :      8697.00486556    
+ core electron kinetic       :      7494.81126518    
+ Coulomb                     :     -16279.2361794    
+ Coulomb potential           :     -13055.8547602    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33585.3390701    
+ Hartree                     :      10264.7421550    
+ Madelung                    :     -9751.30879935    
+ xc potential                :     -433.044423522    
+ exchange                    :     -326.292954877    
+ correlation                 :     -6.98799908687    
+ total energy                :     -7915.51226784    
+ 
+Density of states at Fermi energy :    265.0073613    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6442303395E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.35987936    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.99701893    
+   atom    2                 :    28.11357101    
+   atom    3                 :    20.41894076    
+   atom    4                 :    28.11357101    
+   atom    5                 :    27.99701893    
+ total in muffin-tins        :    132.6401206    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.921470075     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    2.939008880     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2826999443E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       562.50
+ 
++-------------------------+
+| Iteration number :   26 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1029    0.0206
+ 
+Energies :
+ Fermi                       :     0.187765778841    
+ sum of eigenvalues          :     -4791.82519442    
+ electronic kinetic          :      8697.04707226    
+ core electron kinetic       :      7494.37233534    
+ Coulomb                     :     -16279.2179678    
+ Coulomb potential           :     -13055.8286822    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33585.3287248    
+ Hartree                     :      10264.7500213    
+ Madelung                    :     -9751.30362671    
+ xc potential                :     -433.043584506    
+ exchange                    :     -326.292213561    
+ correlation                 :     -6.98806241709    
+ total energy                :     -7915.45117151    
+ 
+Density of states at Fermi energy :    265.0087683    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6442551949E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.36016336    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.99785311    
+   atom    2                 :    28.11320578    
+   atom    3                 :    20.41771886    
+   atom    4                 :    28.11320578    
+   atom    5                 :    27.99785311    
+ total in muffin-tins        :    132.6398366    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.923379271     (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.6109633332E-01 (  0.1000000000E-03)
+Charge distance (target)                   :   0.3976470605E-03 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       585.02
+ 
++-------------------------+
+| Iteration number :   27 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1029    0.0206
+ 
+Energies :
+ Fermi                       :     0.190621667716    
+ sum of eigenvalues          :     -4790.75908654    
+ electronic kinetic          :      8703.92348930    
+ core electron kinetic       :      7494.88256651    
+ Coulomb                     :     -16277.8128600    
+ Coulomb potential           :     -13061.8071550    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33576.5400364    
+ Hartree                     :      10257.3664407    
+ Madelung                    :     -9746.90928249    
+ xc potential                :     -432.875420804    
+ exchange                    :     -326.167196760    
+ correlation                 :     -6.98555078150    
+ total energy                :     -7907.04211825    
+ 
+Density of states at Fermi energy :    265.0060417    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6451336766E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.42215778    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.91680216    
+   atom    2                 :    28.17280524    
+   atom    3                 :    20.39862743    
+   atom    4                 :    28.17280524    
+   atom    5                 :    27.91680216    
+ total in muffin-tins        :    132.5778422    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.927880407     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    8.409053261     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4629582792E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       607.83
+ 
++-------------------------+
+| Iteration number :   28 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1029    0.0206
+ 
+Energies :
+ Fermi                       :     0.187918327749    
+ sum of eigenvalues          :     -4791.16881545    
+ electronic kinetic          :      8695.78354162    
+ core electron kinetic       :      7494.27908396    
+ Coulomb                     :     -16277.6471457    
+ Coulomb potential           :     -13054.1314915    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33583.8842714    
+ Hartree                     :      10264.8763899    
+ Madelung                    :     -9750.58139997    
+ xc potential                :     -432.820865583    
+ exchange                    :     -326.125228736    
+ correlation                 :     -6.98622482103    
+ total energy                :     -7914.97505765    
+ 
+Density of states at Fermi energy :    265.0087412    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6468056485E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.41828673    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.93665400    
+   atom    2                 :    28.12460053    
+   atom    3                 :    20.45920422    
+   atom    4                 :    28.12460053    
+   atom    5                 :    27.93665400    
+ total in muffin-tins        :    132.5817133    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.891131139     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    7.932939398     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4876352195E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       631.04
+ 
++-------------------------+
+| Iteration number :   29 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1031    0.0206
+ 
+Energies :
+ Fermi                       :     0.178376510103    
+ sum of eigenvalues          :     -4791.31812546    
+ electronic kinetic          :      8646.99875419    
+ core electron kinetic       :      7494.44208180    
+ Coulomb                     :     -16278.9803325    
+ Coulomb potential           :     -13005.4850650    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33635.1970714    
+ Hartree                     :      10314.8560032    
+ Madelung                    :     -9776.23780002    
+ xc potential                :     -432.831814606    
+ exchange                    :     -326.127790925    
+ correlation                 :     -6.99199189043    
+ total energy                :     -7965.10136116    
+ 
+Density of states at Fermi energy :    269.8466955    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6516494740E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.35235012    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.84709700    
+   atom    2                 :    28.24855313    
+   atom    3                 :    20.45634962    
+   atom    4                 :    28.24855313    
+   atom    5                 :    27.84709700    
+ total in muffin-tins        :    132.6476499    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.647270198     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    50.12630351     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1067476339E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       653.15
+ 
++-------------------------+
+| Iteration number :   30 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1050    0.0210
+ 
+Energies :
+ Fermi                       :     0.189357437814    
+ sum of eigenvalues          :     -4790.52369041    
+ electronic kinetic          :      8693.56634355    
+ core electron kinetic       :      7494.82520292    
+ Coulomb                     :     -16276.5270272    
+ Coulomb potential           :     -13051.4143543    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33584.3611715    
+ Hartree                     :      10266.4734086    
+ Madelung                    :     -9750.81985004    
+ xc potential                :     -432.675679649    
+ exchange                    :     -326.014693559    
+ correlation                 :     -6.98645512188    
+ total energy                :     -7915.96183232    
+ 
+Density of states at Fermi energy :    265.0080202    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6495873626E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.46328150    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.92268143    
+   atom    2                 :    28.13249740    
+   atom    3                 :    20.42636085    
+   atom    4                 :    28.13249740    
+   atom    5                 :    27.92268143    
+ total in muffin-tins        :    132.5367185    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.878526695     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    49.13952884     (  0.1000000000E-03)
+Charge distance (target)                   :   0.8910862505E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       675.61
+ 
++-------------------------+
+| Iteration number :   31 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1032    0.0206
+ 
+Energies :
+ Fermi                       :     0.192300616685    
+ sum of eigenvalues          :     -4790.32496760    
+ electronic kinetic          :      8701.64558334    
+ core electron kinetic       :      7495.43323632    
+ Coulomb                     :     -16277.1096899    
+ Coulomb potential           :     -13059.2239791    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33577.7168721    
+ Hartree                     :      10259.2464465    
+ Madelung                    :     -9747.49770033    
+ xc potential                :     -432.746571833    
+ exchange                    :     -326.069283778    
+ correlation                 :     -6.98568306392    
+ total energy                :     -7908.51907339    
+ 
+Density of states at Fermi energy :    265.0066561    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6473777152E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.45313956    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.93799893    
+   atom    2                 :    28.12518829    
+   atom    3                 :    20.42048600    
+   atom    4                 :    28.12518829    
+   atom    5                 :    27.93799893    
+ total in muffin-tins        :    132.5468604    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.913471557     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    7.442758932     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1766267671E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       698.18
+ 
++-------------------------+
+| Iteration number :   32 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1029    0.0206
+ 
+Energies :
+ Fermi                       :     0.197700420954    
+ sum of eigenvalues          :     -4790.57546639    
+ electronic kinetic          :      8709.54550543    
+ core electron kinetic       :      7520.93595545    
+ Coulomb                     :     -16279.0514503    
+ Coulomb potential           :     -13067.1969260    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33573.6274459    
+ Hartree                     :      10253.2152600    
+ Madelung                    :     -9745.45298725    
+ xc potential                :     -432.924045829    
+ exchange                    :     -326.205489555    
+ correlation                 :     -6.98429282068    
+ total energy                :     -7902.69572720    
+ 
+Density of states at Fermi energy :    265.0079674    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6403854583E-02
+ valence                     :    85.00000000    
+ interstitial                :    12.41043339    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.93079960    
+   atom    2                 :    28.13285146    
+   atom    3                 :    20.46226450    
+   atom    4                 :    28.13285146    
+   atom    5                 :    27.93079960    
+ total in muffin-tins        :    132.5895666    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.931489519     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    5.823346195     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2943939084E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       720.56
+ 
++-------------------------+
+| Iteration number :   33 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1028    0.0206
+ 
+Energies :
+ Fermi                       :     0.416540897805    
+ sum of eigenvalues          :     -4779.90432272    
+ electronic kinetic          :      10724.2686752    
+ core electron kinetic       :      7463.94318259    
+ Coulomb                     :     -15713.1892459    
+ Coulomb potential           :     -15095.7723458    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -30413.3276174    
+ Hartree                     :      7658.77763579    
+ Madelung                    :     -8165.30307300    
+ xc potential                :     -408.400652069    
+ exchange                    :     -307.901419524    
+ correlation                 :     -6.75173488915    
+ total energy                :     -5303.57372515    
+ 
+Density of states at Fermi energy :    486.0542755    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6423352101E-02
+ valence                     :    85.00000000    
+ interstitial                :    25.32260739    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    29.07535208    
+   atom    2                 :    21.13165957    
+   atom    3                 :    19.26336929    
+   atom    4                 :    21.13165957    
+   atom    5                 :    29.07535208    
+ total in muffin-tins        :    119.6773926    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    16.50685475     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    2599.122002     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2789932210     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       741.26
+ 
++-------------------------+
+| Iteration number :   34 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.433317026648E-01
+ sum of eigenvalues          :     -4760.21058390    
+ electronic kinetic          :      10375.8258875    
+ core electron kinetic       :      7540.72945885    
+ Coulomb                     :     -14951.1423640    
+ Coulomb potential           :     -14743.6064683    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -29241.3997311    
+ Hartree                     :      7248.89663136    
+ Madelung                    :     -7579.33912983    
+ xc potential                :     -392.430003087    
+ exchange                    :     -295.673331414    
+ correlation                 :     -6.96475950511    
+ total energy                :     -4877.95456739    
+ 
+Density of states at Fermi energy :    266.7317233    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1153070970E-01
+ valence                     :    85.00000000    
+ interstitial                :    45.02187974    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    17.97141534    
+   atom    2                 :    18.35952023    
+   atom    3                 :    27.31624911    
+   atom    4                 :    18.35952023    
+   atom    5                 :    17.97141534    
+ total in muffin-tins        :    99.97812026    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    21.55738375     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    425.6191578     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5906354684     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       764.46
+ 
++-------------------------+
+| Iteration number :   35 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.626051949416E-01
+ sum of eigenvalues          :     -4817.24177138    
+ electronic kinetic          :      10873.9282355    
+ core electron kinetic       :      7497.98307781    
+ Coulomb                     :     -15288.8413175    
+ Coulomb potential           :     -15280.2768177    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -29380.1272887    
+ Hartree                     :      7049.92523552    
+ Madelung                    :     -7648.70290866    
+ xc potential                :     -410.893189136    
+ exchange                    :     -309.746876868    
+ correlation                 :     -6.85269151140    
+ total energy                :     -4731.51265043    
+ 
+Density of states at Fermi energy :    827.5384650    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.8574054534E-02
+ valence                     :    85.00000000    
+ interstitial                :    29.03334599    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    29.85607911    
+   atom    2                 :    17.95035158    
+   atom    3                 :    20.35379261    
+   atom    4                 :    17.95035158    
+   atom    5                 :    29.85607911    
+ total in muffin-tins        :    115.9666540    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    22.49860768     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    146.4419170     (  0.1000000000E-03)
+Charge distance (target)                   :   0.7016441801     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       787.19
+ 
++-------------------------+
+| Iteration number :   36 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.605585606810    
+ sum of eigenvalues          :     -4779.84517939    
+ electronic kinetic          :      11759.8034247    
+ core electron kinetic       :      7498.71404891    
+ Coulomb                     :     -14996.2699946    
+ Coulomb potential           :     -16151.2581781    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -27924.0032826    
+ Hartree                     :      5886.37255225    
+ Madelung                    :     -6920.64090560    
+ xc potential                :     -388.390425947    
+ exchange                    :     -292.864681549    
+ correlation                 :     -6.73407597368    
+ total energy                :     -3536.06532751    
+ 
+Density of states at Fermi energy :    107.5190905    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.6854619176E-02
+ valence                     :    85.00000000    
+ interstitial                :    40.43497310    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    24.58403534    
+   atom    2                 :    18.96391494    
+   atom    3                 :    17.46912635    
+   atom    4                 :    18.96391494    
+   atom    5                 :    24.58403534    
+ total in muffin-tins        :    104.5650269    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    27.11895246     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1195.447323     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5214413687     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       809.38
+ 
++-------------------------+
+| Iteration number :   37 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.345475486978    
+ sum of eigenvalues          :     -4801.73188355    
+ electronic kinetic          :      11125.7733043    
+ core electron kinetic       :      7478.87760423    
+ Coulomb                     :     -15088.5953000    
+ Coulomb potential           :     -15520.9184021    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -28738.9936692    
+ Hartree                     :      6609.03763356    
+ Madelung                    :     -7328.13609891    
+ xc potential                :     -406.586785733    
+ exchange                    :     -306.380724105    
+ correlation                 :     -6.90500487356    
+ total energy                :     -4276.10772465    
+ 
+Density of states at Fermi energy :    421.3986013    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7227846649E-02
+ valence                     :    85.00000000    
+ interstitial                :    30.78409536    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    31.21400800    
+   atom    2                 :    19.09032527    
+   atom    3                 :    13.60723811    
+   atom    4                 :    19.09032527    
+   atom    5                 :    31.21400800    
+ total in muffin-tins        :    114.2159046    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    25.63853009     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    740.0423971     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2144351343     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       832.62
+ 
++-------------------------+
+| Iteration number :   38 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.459204943486    
+ sum of eigenvalues          :     -4755.38459764    
+ electronic kinetic          :      11241.2253057    
+ core electron kinetic       :      7482.64303278    
+ Coulomb                     :     -15088.7454154    
+ Coulomb potential           :     -15597.5586835    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -28662.6536188    
+ Hartree                     :      6532.54746764    
+ Madelung                    :     -7289.96607368    
+ xc potential                :     -399.051219814    
+ exchange                    :     -300.769830098    
+ correlation                 :     -6.81267999467    
+ total energy                :     -4155.10261986    
+ 
+Density of states at Fermi energy :    251.7560307    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.8886672889E-02
+ valence                     :    85.00000000    
+ interstitial                :    32.25858473    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    29.75420108    
+   atom    2                 :    19.15398100    
+   atom    3                 :    14.92505111    
+   atom    4                 :    19.15398100    
+   atom    5                 :    29.75420108    
+ total in muffin-tins        :    112.7414153    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    25.02887811     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    121.0051048     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1343454286     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       856.04
+ 
++-------------------------+
+| Iteration number :   39 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.489752310446    
+ sum of eigenvalues          :     -4718.39665918    
+ electronic kinetic          :      11361.2050932    
+ core electron kinetic       :      7504.95177831    
+ Coulomb                     :     -15462.4377827    
+ Coulomb potential           :     -15681.0581640    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -29326.5388727    
+ Hartree                     :      6822.74035436    
+ Madelung                    :     -7621.90870065    
+ xc potential                :     -398.543588371    
+ exchange                    :     -300.555133883    
+ correlation                 :     -6.68633852218    
+ total energy                :     -4408.47416186    
+ 
+Density of states at Fermi energy :    265.0423917    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1457400706E-01
+ valence                     :    85.00000000    
+ interstitial                :    33.13640381    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    19.84632702    
+   atom    2                 :    27.20733499    
+   atom    3                 :    17.75627218    
+   atom    4                 :    27.20733499    
+   atom    5                 :    19.84632702    
+ total in muffin-tins        :    111.8635962    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    20.33406455     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    253.3715420     (  0.1000000000E-03)
+Charge distance (target)                   :   0.3933668251     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       878.80
+ 
++-------------------------+
+| Iteration number :   40 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.531127426449    
+ sum of eigenvalues          :     -4734.32390475    
+ electronic kinetic          :      11482.3485659    
+ core electron kinetic       :      7455.57258096    
+ Coulomb                     :     -15196.5898660    
+ Coulomb potential           :     -15824.5062788    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -28651.3949247    
+ Hartree                     :      6413.44432295    
+ Madelung                    :     -7284.33672664    
+ xc potential                :     -392.166191897    
+ exchange                    :     -295.667166419    
+ correlation                 :     -6.72881657030    
+ total energy                :     -4016.63728308    
+ 
+Density of states at Fermi energy :    837.5543146    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1019908205E-01
+ valence                     :    85.00000000    
+ interstitial                :    34.52886262    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    26.35432683    
+   atom    2                 :    20.24541962    
+   atom    3                 :    17.27164447    
+   atom    4                 :    20.24541962    
+   atom    5                 :    26.35432683    
+ total in muffin-tins        :    110.4711374    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    23.90078219     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    391.8368788     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2657622568     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       900.14
+ 
++-------------------------+
+| Iteration number :   41 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.272293947159    
+ sum of eigenvalues          :     -4722.56554210    
+ electronic kinetic          :      11310.4029847    
+ core electron kinetic       :      7564.60478531    
+ Coulomb                     :     -14824.6945765    
+ Coulomb potential           :     -15629.9896233    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -28102.1210010    
+ Hartree                     :      6236.06568883    
+ Madelung                    :     -7009.69976479    
+ xc potential                :     -402.978903421    
+ exchange                    :     -303.866925413    
+ correlation                 :     -6.73810786553    
+ total energy                :     -3824.89662508    
+ 
+Density of states at Fermi energy :   0.3414388252    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3499758767    
+ valence                     :    85.00000000    
+ interstitial                :    35.46735017    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    11.90840621    
+   atom    2                 :    29.14144811    
+   atom    3                 :    27.43294119    
+   atom    4                 :    29.14144811    
+   atom    5                 :    11.90840621    
+ total in muffin-tins        :    109.5326498    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    27.01534325     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    191.7406580     (  0.1000000000E-03)
+Charge distance (target)                   :   0.6097770944     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       922.68
+ 
++-------------------------+
+| Iteration number :   42 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.271735493874    
+ sum of eigenvalues          :     -4837.90119102    
+ electronic kinetic          :      11529.2297408    
+ core electron kinetic       :      7477.95374609    
+ Coulomb                     :     -14735.5317468    
+ Coulomb potential           :     -15978.8588287    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -27574.9261363    
+ Hartree                     :      5798.03365376    
+ Madelung                    :     -6746.10233243    
+ xc potential                :     -388.272103072    
+ exchange                    :     -292.589685458    
+ correlation                 :     -6.92768643360    
+ total energy                :     -3505.81937790    
+ 
+Density of states at Fermi energy :    808.0883372    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7337546055E-01
+ valence                     :    85.00000000    
+ interstitial                :    47.58371355    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    17.10007247    
+   atom    2                 :    24.63533835    
+   atom    3                 :    13.94546480    
+   atom    4                 :    24.63533835    
+   atom    5                 :    17.10007247    
+ total in muffin-tins        :    97.41628645    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    27.24864169     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    319.0772472     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5837914518     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       944.96
+ 
++-------------------------+
+| Iteration number :   43 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.383438716701    
+ sum of eigenvalues          :     -4756.47290631    
+ electronic kinetic          :      11637.8239771    
+ core electron kinetic       :      7589.19305097    
+ Coulomb                     :     -11403.8912428    
+ Coulomb potential           :     -16017.8650686    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -20872.6388885    
+ Hartree                     :      2427.38690995    
+ Madelung                    :     -3394.95870854    
+ xc potential                :     -376.431814842    
+ exchange                    :     -283.905269711    
+ correlation                 :     -6.69800060149    
+ total energy                :     -56.6705360268    
+ 
+Density of states at Fermi energy :    1.600258674    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1545894459    
+ valence                     :    85.00000000    
+ interstitial                :    61.71009634    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    13.69352751    
+   atom    2                 :    18.05396711    
+   atom    3                 :    19.79491441    
+   atom    4                 :    18.05396711    
+   atom    5                 :    13.69352751    
+ total in muffin-tins        :    83.28990366    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    59.22191362     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    3449.148842     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5816120709     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       967.22
+ 
++-------------------------+
+| Iteration number :   44 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.140565840468    
+ sum of eigenvalues          :     -4926.69788341    
+ electronic kinetic          :      11181.6337153    
+ core electron kinetic       :      7521.47959599    
+ Coulomb                     :     -11148.1415557    
+ Coulomb potential           :     -15717.0842513    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -20661.9203316    
+ Hartree                     :      2472.41804012    
+ Madelung                    :     -3289.59943008    
+ xc potential                :     -391.247347381    
+ exchange                    :     -294.905439681    
+ correlation                 :     -6.91040829535    
+ total energy                :     -268.323688410    
+ 
+Density of states at Fermi energy :    604.3813370    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5321610950E-02
+ valence                     :    85.00000000    
+ interstitial                :    57.24001340    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    19.83091908    
+   atom    2                 :    18.04893290    
+   atom    3                 :    12.00028263    
+   atom    4                 :    18.04893290    
+   atom    5                 :    19.83091908    
+ total in muffin-tins        :    87.75998660    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    61.88274760     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    211.6531524     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4153795019     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :       989.07
+ 
++-------------------------+
+| Iteration number :   45 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     -1.75290887198    
+ sum of eigenvalues          :     -5010.27386799    
+ electronic kinetic          :      10308.3717847    
+ core electron kinetic       :      7534.51113333    
+ Coulomb                     :     -10307.8232885    
+ Coulomb potential           :     -14916.9464982    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -19781.4215502    
+ Hartree                     :      2432.23752598    
+ Madelung                    :     -2849.35003938    
+ xc potential                :     -401.699154479    
+ exchange                    :     -302.577402965    
+ correlation                 :     -7.18542661576    
+ total energy                :     -309.214333368    
+ 
+Density of states at Fermi energy :    532.7420878    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3145387438E-02
+ valence                     :    85.00000000    
+ interstitial                :    61.04781567    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    17.99592614    
+   atom    2                 :    17.97995431    
+   atom    3                 :    12.00042343    
+   atom    4                 :    17.97995431    
+   atom    5                 :    17.99592614    
+ total in muffin-tins        :    83.95218433    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    66.06078172     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    40.89064496     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2715534647     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1011.13
+ 
++-------------------------+
+| Iteration number :   46 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     -1.12213708497    
+ sum of eigenvalues          :     -4948.80586652    
+ electronic kinetic          :      10969.6089356    
+ core electron kinetic       :      7560.14772993    
+ Coulomb                     :     -11009.6489201    
+ Coulomb potential           :     -15521.2108242    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -20580.8084874    
+ Hartree                     :      2529.79883155    
+ Madelung                    :     -3249.04350797    
+ xc potential                :     -397.203977905    
+ exchange                    :     -299.355816296    
+ correlation                 :     -7.01431582072    
+ total energy                :     -346.410116575    
+ 
+Density of states at Fermi energy :   0.9927320760E-10
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.4607445249E-02
+ valence                     :    85.00000000    
+ interstitial                :    57.22973519    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    17.99451849    
+   atom    2                 :    17.97043362    
+   atom    3                 :    15.84036059    
+   atom    4                 :    17.97043362    
+   atom    5                 :    17.99451849    
+ total in muffin-tins        :    87.77026481    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    62.24693902     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    37.19578321     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2173647336     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1033.04
+ 
++-------------------------+
+| Iteration number :   47 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     -1.34193601450    
+ sum of eigenvalues          :     -5002.11478207    
+ electronic kinetic          :      9415.75930608    
+ core electron kinetic       :      7587.57637853    
+ Coulomb                     :     -8865.12277302    
+ Coulomb potential           :     -14027.0568489    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -17785.9101686    
+ Hartree                     :      1879.42665983    
+ Madelung                    :     -1851.59434857    
+ xc potential                :     -390.817239257    
+ exchange                    :     -294.516380090    
+ correlation                 :     -7.03609569025    
+ total energy                :      249.084057279    
+ 
+Density of states at Fermi energy :    398.1015027    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1457210856E-02
+ valence                     :    85.00000000    
+ interstitial                :    69.14280553    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    13.93569850    
+   atom    2                 :    17.99281074    
+   atom    3                 :    12.00017599    
+   atom    4                 :    17.99281074    
+   atom    5                 :    13.93569850    
+ total in muffin-tins        :    75.85719447    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    75.00604384     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    595.4941739     (  0.1000000000E-03)
+Charge distance (target)                   :   0.7330382829     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1055.11
+ 
++-------------------------+
+| Iteration number :   48 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     -1.60223741468    
+ sum of eigenvalues          :     -5043.82411528    
+ electronic kinetic          :      10357.3175555    
+ core electron kinetic       :      7495.46722818    
+ Coulomb                     :     -10105.5926728    
+ Coulomb potential           :     -15001.4465321    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -19292.4602849    
+ Hartree                     :      2145.50687639    
+ Madelung                    :     -2604.86940674    
+ xc potential                :     -399.695138708    
+ exchange                    :     -301.279538030    
+ correlation                 :     -6.99296407762    
+ total energy                :     -56.5476193663    
+ 
+Density of states at Fermi energy :    1349.686636    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1732939816E-02
+ valence                     :    85.00000000    
+ interstitial                :    61.65488475    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    17.99730994    
+   atom    2                 :    17.67505107    
+   atom    3                 :    12.00039324    
+   atom    4                 :    17.67505107    
+   atom    5                 :    17.99730994    
+ total in muffin-tins        :    83.34511525    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    69.00371901     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    305.6316766     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1554940167     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1077.73
+ 
++-------------------------+
+| Iteration number :   49 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.460601662263    
+ sum of eigenvalues          :     -4885.73746332    
+ electronic kinetic          :      11826.4802967    
+ core electron kinetic       :      7546.86753585    
+ Coulomb                     :     -14890.2805483    
+ Coulomb potential           :     -16298.7700503    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -27564.5125176    
+ Hartree                     :      5632.87123365    
+ Madelung                    :     -6740.89552310    
+ xc potential                :     -413.447709742    
+ exchange                    :     -311.813608572    
+ correlation                 :     -6.80615484735    
+ total energy                :     -3382.42001494    
+ 
+Density of states at Fermi energy :    836.5312343    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3236015047E-02
+ valence                     :    85.00000000    
+ interstitial                :    33.11937337    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    25.77107397    
+   atom    2                 :    17.97407807    
+   atom    3                 :    24.39032255    
+   atom    4                 :    17.97407807    
+   atom    5                 :    25.77107397    
+ total in muffin-tins        :    111.8806266    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    29.29962074     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    3325.872396     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4849131556     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1099.80
+ 
++-------------------------+
+| Iteration number :   50 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     0.419460183492E-01
+ sum of eigenvalues          :     -4921.60037588    
+ electronic kinetic          :      11480.4350116    
+ core electron kinetic       :      7546.83967976    
+ Coulomb                     :     -11926.9031117    
+ Coulomb potential           :     -16008.4939293    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -21928.0337656    
+ Hartree                     :      2959.76991818    
+ Madelung                    :     -3922.65614710    
+ xc potential                :     -393.541458216    
+ exchange                    :     -296.643389674    
+ correlation                 :     -6.88495933565    
+ total energy                :     -749.996449148    
+ 
+Density of states at Fermi energy :    957.3633867    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3239403939E-02
+ valence                     :    85.00000000    
+ interstitial                :    50.77145329    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    21.97438943    
+   atom    2                 :    19.13957901    
+   atom    3                 :    12.00060984    
+   atom    4                 :    19.13957901    
+   atom    5                 :    21.97438943    
+ total in muffin-tins        :    94.22854671    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    56.98599581     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    2632.423566     (  0.1000000000E-03)
+Charge distance (target)                   :   0.7801362715     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1121.59
+ 
++-------------------------+
+| Iteration number :   51 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :     -1.13586134398    
+ sum of eigenvalues          :     -5001.51411176    
+ electronic kinetic          :      11505.2856501    
+ core electron kinetic       :      7509.41775276    
+ Coulomb                     :     -14618.9247041    
+ Coulomb potential           :     -16085.3438561    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -27235.2270236    
+ Hartree                     :      5574.94158373    
+ Madelung                    :     -6576.25277608    
+ xc potential                :     -421.455905770    
+ exchange                    :     -317.743483935    
+ correlation                 :     -6.95336519581    
+ total energy                :     -3438.33590314    
+ 
+Density of states at Fermi energy :    924.0203868    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.1576808862E-02
+ valence                     :    85.00000000    
+ interstitial                :    37.90342679    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    13.99844152    
+   atom    2                 :    27.91017440    
+   atom    3                 :    23.27934137    
+   atom    4                 :    27.91017440    
+   atom    5                 :    13.99844152    
+ total in muffin-tins        :    107.0965732    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    30.77011108     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    2688.339454     (  0.1000000000E-03)
+Charge distance (target)                   :   0.8479595011     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1143.54
+ 
++-------------------------+
+| Iteration number :   52 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.115960537088    
+ sum of eigenvalues          :     -4886.38760626    
+ electronic kinetic          :      8524.79699618    
+ core electron kinetic       :      7640.20783555    
+ Coulomb                     :     -15503.7279598    
+ Coulomb potential           :     -13021.7208237    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -32068.4565672    
+ Hartree                     :      9523.36787172    
+ Madelung                    :     -8992.86754788    
+ xc potential                :     -389.463778703    
+ exchange                    :     -293.321333022    
+ correlation                 :     -7.10949950724    
+ total energy                :     -7279.36179610    
+ 
+Density of states at Fermi energy :    265.0107440    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7716199377E-02
+ valence                     :    85.00000000    
+ interstitial                :    41.84793517    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    21.82713879    
+   atom    2                 :    22.07643231    
+   atom    3                 :    15.34492263    
+   atom    4                 :    22.07643231    
+   atom    5                 :    21.82713879    
+ total in muffin-tins        :    103.1520648    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    5.897690025     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    3841.025893     (  0.1000000000E-03)
+Charge distance (target)                   :   0.9606908822     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1165.55
+ 
++-------------------------+
+| Iteration number :   53 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.734039721010    
+ sum of eigenvalues          :     -5096.48500438    
+ electronic kinetic          :      9975.99158551    
+ core electron kinetic       :      7471.26033787    
+ Coulomb                     :     -16366.0537641    
+ Coulomb potential           :     -14610.7869843    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -32204.0420152    
+ Hartree                     :      8796.62751544    
+ Madelung                    :     -9060.66027191    
+ xc potential                :     -461.689605551    
+ exchange                    :     -347.837698349    
+ correlation                 :     -7.17192611304    
+ total energy                :     -6745.07180303    
+ 
+Density of states at Fermi energy :    423.1421877    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.8337196449E-03
+ valence                     :    85.00000000    
+ interstitial                :    11.48712000    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.97238292    
+   atom    2                 :    27.98984172    
+   atom    3                 :    21.58843073    
+   atom    4                 :    27.98984172    
+   atom    5                 :    27.97238292    
+ total in muffin-tins        :    133.5128800    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    10.76945596     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    534.2899931     (  0.1000000000E-03)
+Charge distance (target)                   :   0.8330091867     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1186.11
+ 
++-------------------------+
+| Iteration number :   54 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.191988254939    
+ sum of eigenvalues          :     -4968.81394528    
+ electronic kinetic          :      6346.02820936    
+ core electron kinetic       :      7529.40988700    
+ Coulomb                     :     -15771.1494210    
+ Coulomb potential           :     -10884.8413291    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34740.1789844    
+ Hartree                     :      11927.6688276    
+ Madelung                    :     -10328.7287565    
+ xc potential                :     -430.000825523    
+ exchange                    :     -323.861122324    
+ correlation                 :     -7.18311329593    
+ total energy                :     -9756.16544730    
+ 
+Density of states at Fermi energy :   0.1224598301E-09
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3331583797E-02
+ valence                     :    85.00000000    
+ interstitial                :    13.37229160    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    17.98374224    
+   atom    2                 :    28.37725721    
+   atom    3                 :    38.90570950    
+   atom    4                 :    28.37725721    
+   atom    5                 :    17.98374224    
+ total in muffin-tins        :    131.6277084    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    11.85236791     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    3011.093644     (  0.1000000000E-03)
+Charge distance (target)                   :   0.4544589008     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1208.43
+ 
++-------------------------+
+| Iteration number :   55 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1000    0.0200
+ 
+Energies :
+ Fermi                       :    -0.341572233341    
+ sum of eigenvalues          :     -4973.53475717    
+ electronic kinetic          :      8651.84570091    
+ core electron kinetic       :      7515.62610912    
+ Coulomb                     :     -16317.4168869    
+ Coulomb potential           :     -13182.3954462    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33535.1597990    
+ Hartree                     :      10176.3821764    
+ Madelung                    :     -9726.21916379    
+ xc potential                :     -442.985011900    
+ exchange                    :     -333.850132660    
+ correlation                 :     -7.01865043803    
+ total energy                :     -8006.43996907    
+ 
+Density of states at Fermi energy :   0.3012228187E-02
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3068604946E-02
+ valence                     :    85.00000000    
+ interstitial                :    8.108291888    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    28.62284499    
+   atom    2                 :    27.96804201    
+   atom    3                 :    23.70993410    
+   atom    4                 :    27.96804201    
+   atom    5                 :    28.62284499    
+ total in muffin-tins        :    136.8917081    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.674129836     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1749.725478     (  0.1000000000E-03)
+Charge distance (target)                   :   0.3786720309     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1231.53
+ 
++-------------------------+
+| Iteration number :   56 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1048    0.0210
+ 
+Energies :
+ Fermi                       :    -0.132904758986    
+ sum of eigenvalues          :     -4950.68244368    
+ electronic kinetic          :      8029.24272996    
+ core electron kinetic       :      7506.52280152    
+ Coulomb                     :     -16344.7933775    
+ Coulomb potential           :     -12535.8304906    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -34236.4777358    
+ Hartree                     :      10850.3236226    
+ Madelung                    :     -10076.8781322    
+ xc potential                :     -444.094683022    
+ exchange                    :     -334.696845760    
+ correlation                 :     -7.03135720153    
+ total energy                :     -8657.27885051    
+ 
+Density of states at Fermi energy :    265.0072157    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.3363118944E-02
+ valence                     :    85.00000000    
+ interstitial                :    6.425139257    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.82947557    
+   atom    2                 :    28.28247664    
+   atom    3                 :    26.35095632    
+   atom    4                 :    28.28247664    
+   atom    5                 :    27.82947557    
+ total in muffin-tins        :    138.5748607    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.918020094     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    650.8388814     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1431104314     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1254.79
+ 
++-------------------------+
+| Iteration number :   57 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1216    0.0243
+ 
+Energies :
+ Fermi                       :    -0.111155852402    
+ sum of eigenvalues          :     -4915.46585597    
+ electronic kinetic          :      8217.71523373    
+ core electron kinetic       :      7510.90163185    
+ Coulomb                     :     -16290.7920890    
+ Coulomb potential           :     -12696.4176955    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33967.8879539    
+ Hartree                     :      10635.7351292    
+ Madelung                    :     -9942.58324122    
+ xc potential                :     -436.763394213    
+ exchange                    :     -329.292410423    
+ correlation                 :     -6.90090567295    
+ total energy                :     -8409.27017133    
+ 
+Density of states at Fermi energy :    519.0645433    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.4655081917E-02
+ valence                     :    85.00000000    
+ interstitial                :    7.560431692    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.71773312    
+   atom    2                 :    27.89279669    
+   atom    3                 :    26.21850869    
+   atom    4                 :    27.89279669    
+   atom    5                 :    27.71773312    
+ total in muffin-tins        :    137.4395683    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.8825585253     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    248.0086792     (  0.1000000000E-03)
+Charge distance (target)                   :   0.6642552832E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1276.28
+ 
++-------------------------+
+| Iteration number :   58 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.2712    0.0542
+ 
+Energies :
+ Fermi                       :    -0.110775525111    
+ sum of eigenvalues          :     -4898.76326830    
+ electronic kinetic          :      8119.34723104    
+ core electron kinetic       :      7506.59027188    
+ Coulomb                     :     -16233.3570541    
+ Coulomb potential           :     -12588.5048508    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33960.9307287    
+ Hartree                     :      10686.2129390    
+ Madelung                    :     -9939.10462867    
+ xc potential                :     -429.605648567    
+ exchange                    :     -323.867433784    
+ correlation                 :     -6.88087425261    
+ total energy                :     -8444.75813105    
+ 
+Density of states at Fermi energy :    797.6630339    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5539365486E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32192468    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    26.40273302    
+   atom    2                 :    27.99413718    
+   atom    3                 :    25.88433492    
+   atom    4                 :    27.99413718    
+   atom    5                 :    26.40273302    
+ total in muffin-tins        :    134.6780753    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    1.551830623     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    35.48795971     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5976737467E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1300.18
+ 
++-------------------------+
+| Iteration number :   59 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1449    0.0290
+ 
+Energies :
+ Fermi                       :    -0.278027102415E-01
+ sum of eigenvalues          :     -4877.49631305    
+ electronic kinetic          :      8113.23026095    
+ core electron kinetic       :      7534.34274087    
+ Coulomb                     :     -16139.4213320    
+ Coulomb potential           :     -12572.1930489    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33789.3710866    
+ Hartree                     :      10608.5890188    
+ Madelung                    :     -9853.32480758    
+ xc potential                :     -418.533525111    
+ exchange                    :     -315.490715863    
+ correlation                 :     -6.85844620994    
+ total energy                :     -8348.54023315    
+ 
+Density of states at Fermi energy :    262.6841501    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.7196684464E-02
+ valence                     :    85.00000000    
+ interstitial                :    15.06089283    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    24.58151367    
+   atom    2                 :    27.26671398    
+   atom    3                 :    26.24265186    
+   atom    4                 :    27.26671398    
+   atom    5                 :    24.58151367    
+ total in muffin-tins        :    129.9391072    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :    2.023452063     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    96.21789790     (  0.1000000000E-03)
+Charge distance (target)                   :   0.9581617759E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1323.46
+ 
++-------------------------+
+| Iteration number :   60 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.1175    0.0235
+ 
+Energies :
+ Fermi                       :    -0.132995571704    
+ sum of eigenvalues          :     -4912.75341552    
+ electronic kinetic          :      8208.77447378    
+ core electron kinetic       :      7513.62513208    
+ Coulomb                     :     -16285.8131228    
+ Coulomb potential           :     -12685.1961196    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33969.1515974    
+ Hartree                     :      10641.9777389    
+ Madelung                    :     -9943.21506301    
+ xc potential                :     -436.331769658    
+ exchange                    :     -328.951426610    
+ correlation                 :     -6.91393278622    
+ total energy                :     -8412.90400844    
+ 
+Density of states at Fermi energy :    385.6567664    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.4761706603E-02
+ valence                     :    85.00000000    
+ interstitial                :    7.947779390    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.92564971    
+   atom    2                 :    27.47294905    
+   atom    3                 :    26.25502309    
+   atom    4                 :    27.47294905    
+   atom    5                 :    27.92564971    
+ total in muffin-tins        :    137.0522206    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.8673769084     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    64.36377530     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1426296057     (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1346.27
+ 
++-------------------------+
+| Iteration number :   61 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.2764    0.0553
+ 
+Energies :
+ Fermi                       :    -0.134564132944    
+ sum of eigenvalues          :     -4902.69343644    
+ electronic kinetic          :      8229.97345899    
+ core electron kinetic       :      7514.01625963    
+ Coulomb                     :     -16270.1442113    
+ Coulomb potential           :     -12698.6423715    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33924.3675226    
+ Hartree                     :      10612.8625755    
+ Madelung                    :     -9920.82302558    
+ xc potential                :     -434.024523930    
+ exchange                    :     -327.211307767    
+ correlation                 :     -6.89595171957    
+ total energy                :     -8374.27801183    
+ 
+Density of states at Fermi energy :    385.6879969    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5204098161E-02
+ valence                     :    85.00000000    
+ interstitial                :    8.653620890    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.67641728    
+   atom    2                 :    27.58383752    
+   atom    3                 :    25.82586950    
+   atom    4                 :    27.58383752    
+   atom    5                 :    27.67641728    
+ total in muffin-tins        :    136.3463791    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.6847868937     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    38.62599661     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2802196925E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1370.26
+ 
++-------------------------+
+| Iteration number :   62 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.3542    0.0708
+ 
+Energies :
+ Fermi                       :    -0.127094158639    
+ sum of eigenvalues          :     -4894.44293411    
+ electronic kinetic          :      8307.65762898    
+ core electron kinetic       :      7514.76731003    
+ Coulomb                     :     -16250.3850812    
+ Coulomb potential           :     -12770.5948170    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33812.8968167    
+ Hartree                     :      10521.1509999    
+ Madelung                    :     -9865.08767267    
+ xc potential                :     -431.505746062    
+ exchange                    :     -325.290791429    
+ correlation                 :     -6.88746698252    
+ total energy                :     -8274.90571061    
+ 
+Density of states at Fermi energy :    266.8936400    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5524713940E-02
+ valence                     :    85.00000000    
+ interstitial                :    9.721941573    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.62509940    
+   atom    2                 :    27.50426131    
+   atom    3                 :    25.01933701    
+   atom    4                 :    27.50426131    
+   atom    5                 :    27.62509940    
+ total in muffin-tins        :    135.2780584    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2845347977     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    99.37230122     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2416690162E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1393.99
+ 
++-------------------------+
+| Iteration number :   63 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.6661    0.1332
+ 
+Energies :
+ Fermi                       :    -0.750228422152E-01
+ sum of eigenvalues          :     -4884.99149568    
+ electronic kinetic          :      8339.30557838    
+ core electron kinetic       :      7521.36919647    
+ Coulomb                     :     -16234.7391132    
+ Coulomb potential           :     -12795.1330143    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33757.0666835    
+ Hartree                     :      10480.9668346    
+ Madelung                    :     -9837.17260605    
+ xc potential                :     -429.164059731    
+ exchange                    :     -323.528060056    
+ correlation                 :     -6.87259258210    
+ total energy                :     -8225.83418748    
+ 
+Density of states at Fermi energy :    392.3205094    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5812754295E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.63360534    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.29134449    
+   atom    2                 :    27.40216830    
+   atom    3                 :    24.97936909    
+   atom    4                 :    27.40216830    
+   atom    5                 :    27.29134449    
+ total in muffin-tins        :    134.3663947    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1375948703     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    49.07152314     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2076640423E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1416.64
+ 
++-------------------------+
+| Iteration number :   64 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.8594    0.1719
+ 
+Energies :
+ Fermi                       :    -0.337541316502E-01
+ sum of eigenvalues          :     -4888.84864166    
+ electronic kinetic          :      8198.69221041    
+ core electron kinetic       :      7512.63686241    
+ Coulomb                     :     -16265.6831327    
+ Coulomb potential           :     -12654.2772239    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33959.8105129    
+ Hartree                     :      10652.7666445    
+ Madelung                    :     -9938.54452077    
+ xc potential                :     -433.263628126    
+ exchange                    :     -326.631801216    
+ correlation                 :     -6.89573240473    
+ total energy                :     -8400.51845595    
+ 
+Density of states at Fermi energy :    385.6547920    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5321459592E-02
+ valence                     :    85.00000000    
+ interstitial                :    8.903572888    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.43381040    
+   atom    2                 :    27.56463566    
+   atom    3                 :    26.09953499    
+   atom    4                 :    27.56463566    
+   atom    5                 :    27.43381040    
+ total in muffin-tins        :    136.0964271    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.9090376109     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    174.6842685     (  0.1000000000E-03)
+Charge distance (target)                   :   0.3942637059E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1438.82
+ 
++-------------------------+
+| Iteration number :   65 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.2623    0.0525
+ 
+Energies :
+ Fermi                       :     0.616411157625E-01
+ sum of eigenvalues          :     -4873.99289193    
+ electronic kinetic          :      8220.29939857    
+ core electron kinetic       :      7514.41499552    
+ Coulomb                     :     -16255.6219694    
+ Coulomb potential           :     -12662.4663026    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33931.4991076    
+ Hartree                     :      10634.5164025    
+ Madelung                    :     -9924.38881809    
+ xc potential                :     -431.825987893    
+ exchange                    :     -325.561405205    
+ correlation                 :     -6.87744263673    
+ total energy                :     -8367.76141866    
+ 
+Density of states at Fermi energy :    385.6548765    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5475120876E-02
+ valence                     :    85.00000000    
+ interstitial                :    9.409934186    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.06555532    
+   atom    2                 :    27.61911602    
+   atom    3                 :    26.22072314    
+   atom    4                 :    27.61911602    
+   atom    5                 :    27.06555532    
+ total in muffin-tins        :    135.5900658    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.9314271751     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    32.75703729     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1534967917E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1461.85
+ 
++-------------------------+
+| Iteration number :   66 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.2552    0.0510
+ 
+Energies :
+ Fermi                       :     0.783511385713E-01
+ sum of eigenvalues          :     -4866.09896375    
+ electronic kinetic          :      8261.00762691    
+ core electron kinetic       :      7512.84780422    
+ Coulomb                     :     -16240.9627563    
+ Coulomb potential           :     -12697.0179158    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33867.6290681    
+ Hartree                     :      10585.3055762    
+ Madelung                    :     -9892.45379836    
+ xc potential                :     -430.088674859    
+ exchange                    :     -324.250735265    
+ correlation                 :     -6.86848635994    
+ total energy                :     -8311.07435098    
+ 
+Density of states at Fermi energy :    386.2562016    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5699274551E-02
+ valence                     :    85.00000000    
+ interstitial                :    9.983957737    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.03603912    
+   atom    2                 :    27.45526805    
+   atom    3                 :    26.03342793    
+   atom    4                 :    27.45526805    
+   atom    5                 :    27.03603912    
+ total in muffin-tins        :    135.0160423    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.6950461444     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    56.68706768     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1284744159E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1484.42
+ 
++-------------------------+
+| Iteration number :   67 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.3491    0.0698
+ 
+Energies :
+ Fermi                       :     0.132635821702    
+ sum of eigenvalues          :     -4854.32079412    
+ electronic kinetic          :      8338.50103093    
+ core electron kinetic       :      7522.11055411    
+ Coulomb                     :     -16219.7710350    
+ Coulomb potential           :     -12765.7399065    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33756.5236350    
+ Hartree                     :      10495.3918642    
+ Madelung                    :     -9836.90108177    
+ xc potential                :     -427.081918502    
+ exchange                    :     -321.971272222    
+ correlation                 :     -6.85780177477    
+ total energy                :     -8210.09907811    
+ 
+Density of states at Fermi energy :    264.8412294    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5942349227E-02
+ valence                     :    85.00000000    
+ interstitial                :    11.56075205    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    26.45347828    
+   atom    2                 :    27.63180367    
+   atom    3                 :    25.26868405    
+   atom    4                 :    27.63180367    
+   atom    5                 :    26.45347828    
+ total in muffin-tins        :    133.4392480    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.4803863530     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    100.9752729     (  0.1000000000E-03)
+Charge distance (target)                   :   0.3176784951E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1506.88
+ 
++-------------------------+
+| Iteration number :   68 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.4826    0.0965
+ 
+Energies :
+ Fermi                       :     0.687469028733E-01
+ sum of eigenvalues          :     -4863.46837062    
+ electronic kinetic          :      8355.81172068    
+ core electron kinetic       :      7520.42083540    
+ Coulomb                     :     -16234.8899901    
+ Coulomb potential           :     -12790.0630977    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33762.4383540    
+ Hartree                     :      10486.1876281    
+ Madelung                    :     -9839.85844129    
+ xc potential                :     -429.216993595    
+ exchange                    :     -323.578671247    
+ correlation                 :     -6.87010804425    
+ total energy                :     -8209.52704876    
+ 
+Density of states at Fermi energy :    385.6643346    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5800750033E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.52617218    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.32372230    
+   atom    2                 :    27.30385203    
+   atom    3                 :    25.21867917    
+   atom    4                 :    27.30385203    
+   atom    5                 :    27.32372230    
+ total in muffin-tins        :    134.4738278    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.5738545778E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.5720293557     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2543393741E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1530.35
+ 
++-------------------------+
+| Iteration number :   69 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.9916    0.1983
+ 
+Energies :
+ Fermi                       :     0.565098347003E-01
+ sum of eigenvalues          :     -4868.16956576    
+ electronic kinetic          :      8336.63603510    
+ core electron kinetic       :      7515.08103439    
+ Coulomb                     :     -16249.5112508    
+ Coulomb potential           :     -12773.6328966    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33808.1110763    
+ Hartree                     :      10517.2390898    
+ Madelung                    :     -9862.69480245    
+ xc potential                :     -431.172704227    
+ exchange                    :     -325.054179859    
+ correlation                 :     -6.87895660966    
+ total energy                :     -8244.80835214    
+ 
+Density of states at Fermi energy :    265.0069351    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5571928401E-02
+ valence                     :    85.00000000    
+ interstitial                :    9.820113088    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.50473642    
+   atom    2                 :    27.48356507    
+   atom    3                 :    25.20328394    
+   atom    4                 :    27.48356507    
+   atom    5                 :    27.50473642    
+ total in muffin-tins        :    135.1798869    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1343747053     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    35.28130338     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1533965373E-01 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1554.26
+ 
++-------------------------+
+| Iteration number :   70 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.8643    0.1729
+ 
+Energies :
+ Fermi                       :     0.911794350795E-01
+ sum of eigenvalues          :     -4860.90644514    
+ electronic kinetic          :      8368.53380075    
+ core electron kinetic       :      7518.97914133    
+ Coulomb                     :     -16240.3477252    
+ Coulomb potential           :     -12799.5186418    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33763.8982800    
+ Hartree                     :      10482.1898191    
+ Madelung                    :     -9840.58840431    
+ xc potential                :     -429.921604117    
+ exchange                    :     -324.119073790    
+ correlation                 :     -6.86632474239    
+ total energy                :     -8202.79932298    
+ 
+Density of states at Fermi energy :    265.0109954    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5705300447E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.27622104    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.32248327    
+   atom    2                 :    27.41478084    
+   atom    3                 :    25.24925074    
+   atom    4                 :    27.41478084    
+   atom    5                 :    27.32248327    
+ total in muffin-tins        :    134.7237790    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.5744212665E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    42.00902916     (  0.1000000000E-03)
+Charge distance (target)                   :   0.9799846024E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1577.99
+ 
++-------------------------+
+| Iteration number :   71 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    0.9915    0.1983
+ 
+Energies :
+ Fermi                       :     0.766905328619E-01
+ sum of eigenvalues          :     -4863.16270154    
+ electronic kinetic          :      8355.08479174    
+ core electron kinetic       :      7517.58246349    
+ Coulomb                     :     -16240.7720520    
+ Coulomb potential           :     -12788.1951333    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33776.0704420    
+ Hartree                     :      10493.9376544    
+ Madelung                    :     -9846.67448531    
+ xc potential                :     -430.052360006    
+ exchange                    :     -324.209729961    
+ correlation                 :     -6.87221995279    
+ total energy                :     -8216.76921012    
+ 
+Density of states at Fermi energy :    322.2895172    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5707546326E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.21863614    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.38574397    
+   atom    2                 :    27.42648957    
+   atom    3                 :    25.15689677    
+   atom    4                 :    27.42648957    
+   atom    5                 :    27.38574397    
+ total in muffin-tins        :    134.7813639    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.3961291028E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    13.96988715     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5569925233E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1600.53
+ 
++-------------------------+
+| Iteration number :   72 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0238    0.2000
+ 
+Energies :
+ Fermi                       :     0.836141061664E-01
+ sum of eigenvalues          :     -4862.04755998    
+ electronic kinetic          :      8358.77177192    
+ core electron kinetic       :      7518.19360651    
+ Coulomb                     :     -16239.0305943    
+ Coulomb potential           :     -12791.0343651    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33769.7482948    
+ Hartree                     :      10489.3569649    
+ Madelung                    :     -9843.51341171    
+ xc potential                :     -429.784966796    
+ exchange                    :     -324.011467307    
+ correlation                 :     -6.86860662728    
+ total energy                :     -8211.13889628    
+ 
+Density of states at Fermi energy :    800.2754471    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5724595423E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32173406    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31227433    
+   atom    2                 :    27.42376661    
+   atom    3                 :    25.20618407    
+   atom    4                 :    27.42376661    
+   atom    5                 :    27.31227433    
+ total in muffin-tins        :    134.6782659    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1219761096E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    5.630313846     (  0.1000000000E-03)
+Charge distance (target)                   :   0.3808597042E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1623.31
+ 
++-------------------------+
+| Iteration number :   73 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0759    0.2000
+ 
+Energies :
+ Fermi                       :     0.818522021209E-01
+ sum of eigenvalues          :     -4862.30511329    
+ electronic kinetic          :      8357.39356734    
+ core electron kinetic       :      7518.04538566    
+ Coulomb                     :     -16239.3733535    
+ Coulomb potential           :     -12789.8617666    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.6064117    
+ Hartree                     :      10490.8723226    
+ Madelung                    :     -9844.44247016    
+ xc potential                :     -429.836914031    
+ exchange                    :     -324.049008978    
+ correlation                 :     -6.86999074905    
+ total energy                :     -8212.89878584    
+ 
+Density of states at Fermi energy :    910.3084802    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5723579400E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.30317210    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.33216934    
+   atom    2                 :    27.42448122    
+   atom    3                 :    25.18352678    
+   atom    4                 :    27.42448122    
+   atom    5                 :    27.33216934    
+ total in muffin-tins        :    134.6968279    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1144694044E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1.759889568     (  0.1000000000E-03)
+Charge distance (target)                   :   0.1907150095E-02 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1646.40
+ 
++-------------------------+
+| Iteration number :   74 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0774    0.2000
+ 
+Energies :
+ Fermi                       :     0.822024673998E-01
+ sum of eigenvalues          :     -4862.25065566    
+ electronic kinetic          :      8355.76512183    
+ core electron kinetic       :      7518.05022639    
+ Coulomb                     :     -16239.0123857    
+ Coulomb potential           :     -12788.2306102    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33772.5156326    
+ Hartree                     :      10492.1425112    
+ Madelung                    :     -9844.89708062    
+ xc potential                :     -429.785167316    
+ exchange                    :     -324.009533139    
+ correlation                 :     -6.87004276932    
+ total energy                :     -8214.12683978    
+ 
+Density of states at Fermi energy :    959.9462774    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725851090E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32831633    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31488084    
+   atom    2                 :    27.42900285    
+   atom    3                 :    25.18391629    
+   atom    4                 :    27.42900285    
+   atom    5                 :    27.31488084    
+ total in muffin-tins        :    134.6716837    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.4642195090E-02 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1.228053933     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5996957783E-03 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1668.12
+ 
++-------------------------+
+| Iteration number :   75 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0908    0.2000
+ 
+Energies :
+ Fermi                       :     0.827452448435E-01
+ sum of eigenvalues          :     -4862.18077667    
+ electronic kinetic          :      8357.24238324    
+ core electron kinetic       :      7518.08490357    
+ Coulomb                     :     -16239.1630136    
+ Coulomb potential           :     -12789.6207188    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.4267798    
+ Hartree                     :      10490.9030305    
+ Madelung                    :     -9844.35265420    
+ xc potential                :     -429.802441131    
+ exchange                    :     -324.023468865    
+ correlation                 :     -6.86947682389    
+ total energy                :     -8212.81357603    
+ 
+Density of states at Fermi energy :    951.3400267    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5724442754E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.31871221    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31615150    
+   atom    2                 :    27.42866763    
+   atom    3                 :    25.19164953    
+   atom    4                 :    27.42866763    
+   atom    5                 :    27.31615150    
+ total in muffin-tins        :    134.6812878    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2554813057E-02 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1.313263746     (  0.1000000000E-03)
+Charge distance (target)                   :   0.5483432369E-03 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1691.80
+ 
++-------------------------+
+| Iteration number :   76 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0949    0.2000
+ 
+Energies :
+ Fermi                       :     0.824295935318E-01
+ sum of eigenvalues          :     -4862.21309664    
+ electronic kinetic          :      8356.63997893    
+ core electron kinetic       :      7518.07493527    
+ Coulomb                     :     -16239.0870505    
+ Coulomb potential           :     -12789.0594514    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8361210    
+ Hartree                     :      10491.3883348    
+ Madelung                    :     -9844.55732480    
+ xc potential                :     -429.793624211    
+ exchange                    :     -324.016337352    
+ correlation                 :     -6.86975632678    
+ total energy                :     -8213.33316523    
+ 
+Density of states at Fermi energy :    961.0366231    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725350516E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32360083    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31621877    
+   atom    2                 :    27.42843177    
+   atom    3                 :    25.18709808    
+   atom    4                 :    27.42843177    
+   atom    5                 :    27.31621877    
+ total in muffin-tins        :    134.6763992    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2971648182E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.5195891985     (  0.1000000000E-03)
+Charge distance (target)                   :   0.2910797708E-03 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1714.68
+ 
++-------------------------+
+| Iteration number :   77 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0994    0.2000
+ 
+Energies :
+ Fermi                       :     0.824401597629E-01
+ sum of eigenvalues          :     -4862.21653083    
+ electronic kinetic          :      8356.63028617    
+ core electron kinetic       :      7518.07104890    
+ Coulomb                     :     -16239.1194084    
+ Coulomb potential           :     -12789.0488255    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.9114627    
+ Hartree                     :      10491.4313186    
+ Madelung                    :     -9844.59499563    
+ xc potential                :     -429.797991525    
+ exchange                    :     -324.019675325    
+ correlation                 :     -6.86974541345    
+ total energy                :     -8213.37854293    
+ 
+Density of states at Fermi energy :    959.8620124    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725000482E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32159087    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31651372    
+   atom    2                 :    27.42895875    
+   atom    3                 :    25.18746421    
+   atom    4                 :    27.42895875    
+   atom    5                 :    27.31651372    
+ total in muffin-tins        :    134.6784091    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.4206480504E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.4537770146E-01 (  0.1000000000E-03)
+Charge distance (target)                   :   0.4146876207E-04 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1737.57
+ 
++-------------------------+
+| Iteration number :   78 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0992    0.2000
+ 
+Energies :
+ Fermi                       :     0.824517753181E-01
+ sum of eigenvalues          :     -4862.21324108    
+ electronic kinetic          :      8356.65437510    
+ core electron kinetic       :      7518.07094271    
+ Coulomb                     :     -16239.1077192    
+ Coulomb potential           :     -12789.0712067    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8657032    
+ Hartree                     :      10491.3972482    
+ Madelung                    :     -9844.57211588    
+ xc potential                :     -429.796409453    
+ exchange                    :     -324.018485084    
+ correlation                 :     -6.86973899784    
+ total energy                :     -8213.34156822    
+ 
+Density of states at Fermi energy :    960.1778546    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725133034E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32219716    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31642102    
+   atom    2                 :    27.42868518    
+   atom    3                 :    25.18759043    
+   atom    4                 :    27.42868518    
+   atom    5                 :    27.31642102    
+ total in muffin-tins        :    134.6778028    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2551192746E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.3697471398E-01 (  0.1000000000E-03)
+Charge distance (target)                   :   0.1267384955E-04 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1760.01
+ 
++-------------------------+
+| Iteration number :   79 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0995    0.2000
+ 
+Energies :
+ Fermi                       :     0.824642239089E-01
+ sum of eigenvalues          :     -4862.21054706    
+ electronic kinetic          :      8356.67079221    
+ core electron kinetic       :      7518.07114266    
+ Coulomb                     :     -16239.1033995    
+ Coulomb potential           :     -12789.0854461    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8428243    
+ Hartree                     :      10491.3786891    
+ Madelung                    :     -9844.56067643    
+ xc potential                :     -429.795893123    
+ exchange                    :     -324.018104760    
+ correlation                 :     -6.86972974889    
+ total energy                :     -8213.32044181    
+ 
+Density of states at Fermi energy :    960.2810337    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725151042E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32240395    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628925    
+   atom    2                 :    27.42868396    
+   atom    3                 :    25.18764963    
+   atom    4                 :    27.42868396    
+   atom    5                 :    27.31628925    
+ total in muffin-tins        :    134.6775961    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1706573167E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.2112641219E-01 (  0.1000000000E-03)
+Charge distance (target)                   :   0.1541370065E-04 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1782.48
+ 
++-------------------------+
+| Iteration number :   80 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.0997    0.2000
+ 
+Energies :
+ Fermi                       :     0.824690712172E-01
+ sum of eigenvalues          :     -4862.20848017    
+ electronic kinetic          :      8356.69531082    
+ core electron kinetic       :      7518.07196697    
+ Coulomb                     :     -16239.0958963    
+ Coulomb potential           :     -12789.1088879    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8043761    
+ Hartree                     :      10491.3477441    
+ Madelung                    :     -9844.54145232    
+ xc potential                :     -429.794903109    
+ exchange                    :     -324.017360169    
+ correlation                 :     -6.86972507656    
+ total energy                :     -8213.28767068    
+ 
+Density of states at Fermi energy :    960.4390717    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725239791E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32277397    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628643    
+   atom    2                 :    27.42847295    
+   atom    3                 :    25.18770727    
+   atom    4                 :    27.42847295    
+   atom    5                 :    27.31628643    
+ total in muffin-tins        :    134.6772260    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1165575600E-04 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.3277112099E-01 (  0.1000000000E-03)
+Charge distance (target)                   :   0.7860054530E-05 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1805.13
+ 
++-------------------------+
+| Iteration number :   81 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824709566460E-01
+ sum of eigenvalues          :     -4862.20814067    
+ electronic kinetic          :      8356.69539718    
+ core electron kinetic       :      7518.07212829    
+ Coulomb                     :     -16239.0951819    
+ Coulomb potential           :     -12789.1087265    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8031086    
+ Hartree                     :      10491.3471910    
+ Madelung                    :     -9844.54081859    
+ xc potential                :     -429.794811326    
+ exchange                    :     -324.017289882    
+ correlation                 :     -6.86972566022    
+ total energy                :     -8213.28680022    
+ 
+Density of states at Fermi energy :    960.4690944    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725246636E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32281527    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31629413    
+   atom    2                 :    27.42844513    
+   atom    3                 :    25.18770622    
+   atom    4                 :    27.42844513    
+   atom    5                 :    27.31629413    
+ total in muffin-tins        :    134.6771847    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.9777641089E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.8704662523E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.1306011614E-05 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1826.97
+ 
++-------------------------+
+| Iteration number :   82 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824705616740E-01
+ sum of eigenvalues          :     -4862.20817765    
+ electronic kinetic          :      8356.69482466    
+ core electron kinetic       :      7518.07204104    
+ Coulomb                     :     -16239.0954077    
+ Coulomb potential           :     -12789.1081549    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8041319    
+ Hartree                     :      10491.3479885    
+ Madelung                    :     -9844.54133024    
+ xc potential                :     -429.794847368    
+ exchange                    :     -324.017316841    
+ correlation                 :     -6.86972585495    
+ total energy                :     -8213.28762575    
+ 
+Density of states at Fermi energy :    960.4597069    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725244348E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32280123    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31629138    
+   atom    2                 :    27.42846097    
+   atom    3                 :    25.18769406    
+   atom    4                 :    27.42846097    
+   atom    5                 :    27.31629138    
+ total in muffin-tins        :    134.6771988    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1072987957E-04 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.8255319790E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.7373269291E-06 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1849.32
+ 
++-------------------------+
+| Iteration number :   83 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824713261089E-01
+ sum of eigenvalues          :     -4862.20803419    
+ electronic kinetic          :      8356.69706259    
+ core electron kinetic       :      7518.07211392    
+ Coulomb                     :     -16239.0951285    
+ Coulomb potential           :     -12789.1102904    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8014380    
+ Hartree                     :      10491.3455738    
+ Madelung                    :     -9844.53998328    
+ xc potential                :     -429.794806359    
+ exchange                    :     -324.017286911    
+ correlation                 :     -6.86972505265    
+ total energy                :     -8213.28507786    
+ 
+Density of states at Fermi energy :    960.4592843    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725244913E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32281473    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628780    
+   atom    2                 :    27.42845175    
+   atom    3                 :    25.18770617    
+   atom    4                 :    27.42845175    
+   atom    5                 :    27.31628780    
+ total in muffin-tins        :    134.6771853    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.3350441419E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.2547887812E-02 (  0.1000000000E-03)
+Charge distance (target)                   :   0.6630437754E-06 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1872.34
+ 
++-------------------------+
+| Iteration number :   84 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824709196777E-01
+ sum of eigenvalues          :     -4862.20806506    
+ electronic kinetic          :      8356.69649261    
+ core electron kinetic       :      7518.07209126    
+ Coulomb                     :     -16239.0949527    
+ Coulomb potential           :     -12789.1097746    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8016022    
+ Hartree                     :      10491.3459138    
+ Madelung                    :     -9844.54006539    
+ xc potential                :     -429.794783077    
+ exchange                    :     -324.017269116    
+ correlation                 :     -6.86972510129    
+ total energy                :     -8213.28545429    
+ 
+Density of states at Fermi energy :    960.4699468    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725249582E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282449    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628379    
+   atom    2                 :    27.42845090    
+   atom    3                 :    25.18770613    
+   atom    4                 :    27.42845090    
+   atom    5                 :    27.31628379    
+ total in muffin-tins        :    134.6771755    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1958359695E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.3764237008E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.2579222692E-06 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1895.31
+ 
++-------------------------+
+| Iteration number :   85 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824712573356E-01
+ sum of eigenvalues          :     -4862.20803293    
+ electronic kinetic          :      8356.69709746    
+ core electron kinetic       :      7518.07211413    
+ Coulomb                     :     -16239.0949972    
+ Coulomb potential           :     -12789.1103428    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8011229    
+ Hartree                     :      10491.3453901    
+ Madelung                    :     -9844.53982577    
+ xc potential                :     -429.794787563    
+ exchange                    :     -324.017272810    
+ correlation                 :     -6.86972487788    
+ total energy                :     -8213.28489741    
+ 
+Density of states at Fermi energy :    960.4623894    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725247436E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282359    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628063    
+   atom    2                 :    27.42845456    
+   atom    3                 :    25.18770602    
+   atom    4                 :    27.42845456    
+   atom    5                 :    27.31628063    
+ total in muffin-tins        :    134.6771764    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2054332655E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.5568781344E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.2105126895E-06 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1918.66
+ 
++-------------------------+
+| Iteration number :   86 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824710108351E-01
+ sum of eigenvalues          :     -4862.20805897    
+ electronic kinetic          :      8356.69712276    
+ core electron kinetic       :      7518.07211924    
+ Coulomb                     :     -16239.0949898    
+ Coulomb potential           :     -12789.1103947    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8010564    
+ Hartree                     :      10491.3453309    
+ Madelung                    :     -9844.53979249    
+ xc potential                :     -429.794787034    
+ exchange                    :     -324.017272348    
+ correlation                 :     -6.86972490554    
+ total energy                :     -8213.28486433    
+ 
+Density of states at Fermi energy :    960.4636459    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248342E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282345    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628255    
+   atom    2                 :    27.42845264    
+   atom    3                 :    25.18770617    
+   atom    4                 :    27.42845264    
+   atom    5                 :    27.31628255    
+ total in muffin-tins        :    134.6771765    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1689638626E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.3307599400E-04 (  0.1000000000E-03)
+Charge distance (target)                   :   0.9106009243E-07 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1941.08
+ 
++-------------------------+
+| Iteration number :   87 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824707750965E-01
+ sum of eigenvalues          :     -4862.20809683    
+ electronic kinetic          :      8356.69724937    
+ core electron kinetic       :      7518.07208677    
+ Coulomb                     :     -16239.0950170    
+ Coulomb potential           :     -12789.1105562    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8009492    
+ Hartree                     :      10491.3451965    
+ Madelung                    :     -9844.53973891    
+ xc potential                :     -429.794789961    
+ exchange                    :     -324.017274563    
+ correlation                 :     -6.86972488478    
+ total energy                :     -8213.28476710    
+ 
+Density of states at Fermi energy :    960.4614247    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248755E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282243    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628312    
+   atom    2                 :    27.42845276    
+   atom    3                 :    25.18770580    
+   atom    4                 :    27.42845276    
+   atom    5                 :    27.31628312    
+ total in muffin-tins        :    134.6771776    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2301873569E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.9722731193E-04 (  0.1000000000E-03)
+Charge distance (target)                   :   0.5034686936E-07 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1963.45
+ 
++-------------------------+
+| Iteration number :   88 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824710556526E-01
+ sum of eigenvalues          :     -4862.20805651    
+ electronic kinetic          :      8356.69689651    
+ core electron kinetic       :      7518.07210153    
+ Coulomb                     :     -16239.0950186    
+ Coulomb potential           :     -12789.1101619    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8013468    
+ Hartree                     :      10491.3455925    
+ Madelung                    :     -9844.53993769    
+ xc potential                :     -429.794791132    
+ exchange                    :     -324.017275391    
+ correlation                 :     -6.86972496980    
+ total energy                :     -8213.28512249    
+ 
+Density of states at Fermi energy :    960.4643273    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248921E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282167    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628296    
+   atom    2                 :    27.42845327    
+   atom    3                 :    25.18770587    
+   atom    4                 :    27.42845327    
+   atom    5                 :    27.31628296    
+ total in muffin-tins        :    134.6771783    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.6354524559E-06 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.3553827046E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.3650704007E-07 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      1985.88
+ 
++-------------------------+
+| Iteration number :   89 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824711083892E-01
+ sum of eigenvalues          :     -4862.20804985    
+ electronic kinetic          :      8356.69679778    
+ core electron kinetic       :      7518.07210302    
+ Coulomb                     :     -16239.0950278    
+ Coulomb potential           :     -12789.1100549    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8014721    
+ Hartree                     :      10491.3457086    
+ Madelung                    :     -9844.54000035    
+ xc potential                :     -429.794792756    
+ exchange                    :     -324.017276602    
+ correlation                 :     -6.86972499555    
+ total energy                :     -8213.28523161    
+ 
+Density of states at Fermi energy :    960.4646227    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248955E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282090    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628307    
+   atom    2                 :    27.42845352    
+   atom    3                 :    25.18770591    
+   atom    4                 :    27.42845352    
+   atom    5                 :    27.31628307    
+ total in muffin-tins        :    134.6771791    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2244413653E-06 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.1091193080E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.1899230474E-07 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      2007.80
+ 
++-------------------------+
+| Iteration number :   90 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824711316346E-01
+ sum of eigenvalues          :     -4862.20804709    
+ electronic kinetic          :      8356.69719982    
+ core electron kinetic       :      7518.07209927    
+ Coulomb                     :     -16239.0950057    
+ Coulomb potential           :     -12789.1104579    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8010249    
+ Hartree                     :      10491.3452835    
+ Madelung                    :     -9844.53977672    
+ xc potential                :     -429.794788978    
+ exchange                    :     -324.017273856    
+ correlation                 :     -6.86972488777    
+ total energy                :     -8213.28480461    
+ 
+Density of states at Fermi energy :    960.4621934    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725247982E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282289    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628222    
+   atom    2                 :    27.42845337    
+   atom    3                 :    25.18770592    
+   atom    4                 :    27.42845337    
+   atom    5                 :    27.31628222    
+ total in muffin-tins        :    134.6771771    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.1988459480E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.4269984966E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.3661512366E-07 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      2030.61
+ 
++-------------------------+
+| Iteration number :   91 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824712084094E-01
+ sum of eigenvalues          :     -4862.20803596    
+ electronic kinetic          :      8356.69664879    
+ core electron kinetic       :      7518.07210753    
+ Coulomb                     :     -16239.0950369    
+ Coulomb potential           :     -12789.1098904    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8016549    
+ Hartree                     :      10491.3458823    
+ Madelung                    :     -9844.54009175    
+ xc potential                :     -429.794794361    
+ exchange                    :     -324.017277803    
+ correlation                 :     -6.86972502411    
+ total energy                :     -8213.28539098    
+ 
+Density of states at Fermi energy :    960.4654879    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248274E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282006    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628303    
+   atom    2                 :    27.42845395    
+   atom    3                 :    25.18770598    
+   atom    4                 :    27.42845395    
+   atom    5                 :    27.31628303    
+ total in muffin-tins        :    134.6771799    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.6397450978E-06 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.5863715996E-03 (  0.1000000000E-03)
+Charge distance (target)                   :   0.4809283466E-07 (  0.1000000000E-02)
+ 
+Time (CPU seconds) :      2052.89
+ 
++-------------------------+
+| Iteration number :   92 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824711627734E-01
+ sum of eigenvalues          :     -4862.20804354    
+ electronic kinetic          :      8356.69673811    
+ core electron kinetic       :      7518.07210439    
+ Coulomb                     :     -16239.0950313    
+ Coulomb potential           :     -12789.1099884    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8015456    
+ Hartree                     :      10491.3457786    
+ Madelung                    :     -9844.54003708    
+ xc potential                :     -429.794793208    
+ exchange                    :     -324.017276952    
+ correlation                 :     -6.86972499754    
+ total energy                :     -8213.28529514    
+ 
+Density of states at Fermi energy :    960.4648944    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248657E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282067    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628282    
+   atom    2                 :    27.42845381    
+   atom    3                 :    25.18770608    
+   atom    4                 :    27.42845381    
+   atom    5                 :    27.31628282    
+ total in muffin-tins        :    134.6771793    
+ total charge                :    145.0000000    
+ 
+RMS change in effective potential (target) :   0.2221472743E-06 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.9583823703E-04 (  0.1000000000E-03)
+Charge distance (target)                   :   0.1607947657E-07 (  0.1000000000E-02)
+ 
+Convergence targets achieved
+ 
+Time (CPU seconds) :      2075.07
+ 
++-------------------------+
+| Iteration number :   93 |
++-------------------------+
+ 
+Using advanced method for search of linearization energies
+REDuction and DMIX in Broyd:    1.1000    0.2000
+ 
+Energies :
+ Fermi                       :     0.824711524979E-01
+ sum of eigenvalues          :     -4862.20804344    
+ electronic kinetic          :      8356.69701820    
+ core electron kinetic       :      7518.07210219    
+ Coulomb                     :     -16239.0950092    
+ Coulomb potential           :     -12789.1102718    
+ nuclear-nuclear             :      7041.36073571    
+ electron-nuclear            :     -33771.8012180    
+ Hartree                     :      10491.3454731    
+ Madelung                    :     -9844.53987330    
+ xc potential                :     -429.794789832    
+ exchange                    :     -324.017274454    
+ correlation                 :     -6.86972493345    
+ total energy                :     -8213.28499040    
+ 
+Density of states at Fermi energy :    960.4635313    
+ (states/Hartree/unit cell)
+ 
+Charges :
+ core                        :    60.00000000    
+ core leakage                :   0.5725248771E-02
+ valence                     :    85.00000000    
+ interstitial                :    10.32282239    
+ muffin-tins
+  species :    1 (Cu)
+   atom    1                 :    27.31628235    
+   atom    2                 :    27.42845351    
+   atom    3                 :    25.18770588    
+   atom    4                 :    27.42845351    
+   atom    5                 :    27.31628235    
+ total in muffin-tins        :    134.6771776    
+ total charge                :    145.0000000    
+ 
++------------------------------+
+| Self-consistent loop stopped |
++------------------------------+
+ 
+Wrote STATE.OUT
+ 
+Timings (CPU seconds) :
+ initialisation                        :         1.37
+ Hamiltonian and overlap matrix set up :       397.71
+ first-variational secular equation    :      1574.53
+ charge density calculation            :        85.93
+ potential calculation                 :        38.45
+ total                                 :      2097.99
+ 
++-------------------------+
+| EXCITING helium stopped |
++-------------------------+

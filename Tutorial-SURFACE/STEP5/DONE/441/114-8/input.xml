@@ -1,0 +1,21 @@
+<input>
+  <title></title>
+<structure speciespath="$EXCITINGROOT/species">
+    <crystal>
+      <basevect>4.85054408384816 0.00000000000000 0.00000000000000</basevect>
+      <basevect>2.42527204192408 4.20069439878882 0.00000000000000</basevect>
+      <basevect>0.00000000000000 0.00000000000000 42.11697331150655</basevect>
+    </crystal>
+    <species chemicalSymbol="Cu" speciesfile="Cu.xml">
+      <atom coord="0.00000000000000 0.00000000000000 0.35894810279425"/>
+      <atom coord="0.33333333333333 0.33333333333333 0.45298270093142"/>
+      <atom coord="0.66666666666667 0.66666666666667 0.54701729906858"/>
+      <atom coord="0.00000000000000 0.00000000000000 0.64105189720575"/>
+    </species>
+  </structure>
+  <groundstate  ngridk="4 4 1"
+               xctype="GGAPerdew-Burke-Ernzerhof"
+               rgkmax="8.0d0">
+  </groundstate>
+
+</input>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<input xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.exciting-code.org/excitinginput.xsd">
+  <title></title>
+  <structure>
+    <crystal>
+      <basevect>4.83661030535009 0.00000000000000 0.00000000000000</basevect>
+      <basevect>2.41830515267505 4.18862739263879 0.00000000000000</basevect>
+      <basevect>0.00000000000000 0.00000000000000 41.91321880279953</basevect>
+    </crystal>
+    <species chemicalSymbol="Cu" speciesfile="Cu.xml">
+      <atom coord="0.33333333333333 0.33333333333333 0.40577970648882"/>
+      <atom coord="0.66666666666667 0.66666666666667 0.50000000000000"/>
+      <atom coord="0.00000000000000 0.00000000000000 0.59422029351118"/>
+    </species>
+  </structure>
+</input>
