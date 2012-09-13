@@ -3,6 +3,10 @@ from lxml import etree
 def attrib2float(tree,attrib_xpath):
     return str2float(tree.xpath(attrib_xpath)[0].split())
     
+def text2float(element):
+    return str2float(element.text.split())
+
+
 def attrib2int(tree,attrib_xpath):
     return str2int(tree.xpath(attrib_xpath)[0].split())
     
