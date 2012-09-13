@@ -2,17 +2,17 @@ import numpy as np
 import os
 import sys
 from lxml import etree
+import xml_parsing_tools as xpt
 
 def parse_plot2d(inputxmlpath,plot2dxmlpath):
 
     inputtree = etree.parse(inputxmlpath)
     plot2dtree = etree.parse(plot2dxmlpath)
     
-    str2dbl_vec = lambda v :[float(v[0]),float(v[1]),float(v[2])]
-    
-    origin = str2dbl_vec(plot2dtree.xpath('/plot2d/grid/@origin')[0].split())
+    origin = xpt.attrib2float(plot2dtree,'/plot2d/grid/@origin')
+    grid = xpt.attrib2int(plot2dtree,'/plot2d/grid/@gridticks')
 
-    print origin
+    print origin, grid
     
     
 rootdir = "/home1/srigamonti/projects/stm/runs/97/"
