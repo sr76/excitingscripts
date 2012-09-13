@@ -15,18 +15,22 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
     endpoint = []
     endpoint.append(xpt.attrib2float(plot2dtree,'/plot2d/grid/axis[1]/@endpoint'))
     endpoint.append(xpt.attrib2float(plot2dtree,'/plot2d/grid/axis[2]/@endpoint'))
+    delta = []
+    delta.append(xpt.attrib2float(plot2dtree,'/plot2d/grid/axis[1]/@deltas')[0])
+    delta.append(xpt.attrib2float(plot2dtree,'/plot2d/grid/axis[2]/@deltas')[0])
     textrows =  plot2dtree.xpath('/plot2d/function/row')
     rows = []
     for row in textrows:
         rows.append(xpt.text2float(row))
     # Parse plot2d file
-
+    """
     print grid
     print origin
     print endpoint[0]
     print endpoint[1]
+    print delta
     print rows[0]
-    
+    """ 
     # Parse input.xml
     try:
         scale = xpt.attrib2float(inputtree,'/input/structure/crystal/@scale')[0]
@@ -46,7 +50,19 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
         for j in range(3):
             basevects[i][j] = scale * stretch[i] * basevects[i][j]   
     # Parse input.xml
-    
-    
+    """
+    rl=[]
+    r=[]
+    for i in range(grid[0]):
+        for j in range(grid[1]):
+            a = origin[0] + rows 
+    """
 rootdir = "/home1/srigamonti/projects/stm/runs/97/"
 parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
+
+
+
+
+
+
+
