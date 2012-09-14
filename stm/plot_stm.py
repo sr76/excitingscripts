@@ -29,7 +29,7 @@ for i in range(nx):
 # Make plot
 gray=1.00
 
-cdict1 = {'red':   ((0.0,  gray, gray),
+cdict0 = {'red':   ((0.0,  gray, gray),
                    (1.0,  1.0, 1.0)),
 
          'green': ((0.0,  gray, gray),
@@ -37,6 +37,15 @@ cdict1 = {'red':   ((0.0,  gray, gray),
 
          'blue':  ((0.0,  gray, gray),
                    (1.0,  0.0, 0.0))}
+
+cdict1 = {'red':   ((0.0,  gray, gray),
+                   (1.0,  0.35, 0.35)),
+
+         'green': ((0.0,  gray, gray),
+                   (1.0,  0.5, 0.5)),
+
+         'blue':  ((0.0,  gray, gray),
+                   (1.0,  0.8, 0.8))}
 
 white_red = LinearSegmentedColormap('whiteRed', cdict1)
 
@@ -49,7 +58,7 @@ params = {'font.size':15,
           'patch.linewidth': 1.5,
           'axes.linewidth': 2.,
           'axes.formatter.limits': (-4, 6),
-          'lines.linewidth': 1.8,
+          'lines.linewidth': 1.0,
           'lines.markeredgewidth':2.0,
           'lines.markersize':18,
           'legend.fontsize':11,
@@ -63,7 +72,12 @@ plt.rcParams.update(params)
 ax=fig.add_subplot(111)
 
 #ax.contour(x,y,func,cmap='whiteRed')
-ax.contourf(x,y,func,cmap=white_red)
+ncontours = 100
+ax.contourf(x,y,func,ncontours,cmap=white_red,linewidths=0.1,antialiased=True)
+#ax.contourf(x,y,func,ncontours)
+zmin=0.0
+zmax=0.1
+ax.set_zlim(zmin,zmax)
 
 
 if "-png" in args:
