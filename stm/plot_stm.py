@@ -2,7 +2,7 @@ import parse_plot2d
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
-import matplotlib.cm as cm
+import matplotlib.cm as cm # color map library
 import os
 import sys
 
@@ -13,7 +13,6 @@ r, rl, func = parse_plot2d.parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XM
 
 nx = len(r)
 ny = len(r[0])
-
 x=[]
 y=[]
 #f=[]
@@ -25,6 +24,9 @@ for i in range(nx):
         x[i].append(r[i][j][0])
         y[i].append(r[i][j][1])
 #        f[i].append(func[i][j])
+xnp=np.array(x)
+ynp=np.array(y)
+fnp=np.array(func)
 
 # Make plot
 gray=1.00
@@ -72,13 +74,21 @@ plt.rcParams.update(params)
 ax=fig.add_subplot(111)
 
 #ax.contour(x,y,func,cmap='whiteRed')
-ncontours = 100
-ax.contourf(x,y,func,ncontours,cmap=white_red,linewidths=0.1,antialiased=True)
-#ax.contourf(x,y,func,ncontours)
-zmin=0.0
-zmax=0.1
-ax.set_zlim(zmin,zmax)
+zmin=0.001
+zmax=0.0035
+ncontours = 10
+levels=[]
+for i in range(ncontours):
+    levels.append(zmin+(zmax-zmin)/ncontours*i)
 
+#cm.copper.set_under('yellow')
+#cm.copper.set_over('cyan')
+#ax.contourf(x,y,func,levels=levels,cmap=white_red,linewidths=0.1,antialiased=True, extend='both')
+#ax.contourf(x,y,func,levels=levels,cmap=cm.copper,antialiased=True,extend='none')
+#ax.imshow(func,cmap=cm.copper)
+ax.pcolor(xnp,ynp,fnp,cmap=cm.copper)
+#ax.contourf(x,y,func,ncontours)
+#ax.set_zlim(zmin,zmax)
 
 if "-png" in args:
     plt.savefig('PLOT.png', orientation='portrait',format='png')
