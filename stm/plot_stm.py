@@ -1,12 +1,14 @@
 import parse_plot2d
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+import matplotlib.cm as cm
 import os
 import sys
 
 args = sys.argv[1:]
 
-rootdir = "/home1/srigamonti/projects/stm/runs/97/"
+rootdir = "/home1/srigamonti/projects/stm/runs/1347622007185/"
 r, rl, func = parse_plot2d.parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
 
 nx = len(r)
@@ -25,6 +27,19 @@ for i in range(nx):
 #        f[i].append(func[i][j])
 
 # Make plot
+gray=1.00
+
+cdict1 = {'red':   ((0.0,  gray, gray),
+                   (1.0,  1.0, 1.0)),
+
+         'green': ((0.0,  gray, gray),
+                   (1.0,  0.0, 0.0)),
+
+         'blue':  ((0.0,  gray, gray),
+                   (1.0,  0.0, 0.0))}
+
+white_red = LinearSegmentedColormap('whiteRed', cdict1)
+
 
 fig=plt.figure(1,figsize=(8,5.5))
 
@@ -47,7 +62,8 @@ plt.rcParams.update(params)
 
 ax=fig.add_subplot(111)
 
-ax. contour(x,y,func)
+#ax.contour(x,y,func,cmap='whiteRed')
+ax.contourf(x,y,func,cmap=white_red)
 
 
 if "-png" in args:
