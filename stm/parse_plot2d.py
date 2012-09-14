@@ -81,7 +81,6 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
                 for l in range(3):
                     x = x + rl[i][j][l]*basevects[l][k]
                 r[i][j].append(x)
-            print r[i][j]
 
     return r, rl, func
 

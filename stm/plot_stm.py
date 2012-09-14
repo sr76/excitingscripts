@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import os
 import sys
 
+args = sys.argv[1:]
+
 rootdir = "/home1/srigamonti/projects/stm/runs/97/"
 r, rl, func = parse_plot2d.parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
 
@@ -41,3 +43,26 @@ params = {'font.size':15,
           'savefig.dpi':80}
 
 plt.rcParams.update(params)
+
+
+ax=fig.add_subplot(111)
+
+ax. contour(x,y,func)
+
+
+if "-png" in args:
+    plt.savefig('PLOT.png', orientation='portrait',format='png')
+else:
+    plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
