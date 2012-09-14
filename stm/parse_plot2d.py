@@ -85,8 +85,6 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
 
     return r, rl, func
 
-rootdir = "/home1/srigamonti/projects/stm/runs/97/"
-parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
 
 
 
