@@ -17,14 +17,20 @@ else:
     ti = 1
     tj = 1
     
+if "-skip" in args:
+    ind = args.index("-skip")
+    skip = int(args[ind+1]) 
+else:
+    skip = 1
+
 r, rl, basevect, func = parse_plot2d.parse_plot2d("input.xml", "STM2d2D.XML")
 
 bohrToAng = 0.529177249
 
 ni0 = len(r)
 nj0 = len(r[0])
-ni = ti * ni0
-nj = tj * nj0
+ni = int(round(ti * ni0 / skip))
+nj = int(round(tj * nj0 / skip))
 x=[]
 y=[]
 f=[]
@@ -32,11 +38,11 @@ for i in range(ni):
     x.append([])
     y.append([])
     f.append([])
-    it = np.mod(i,ni0)
-    itf = int(i/(ni0))
+    it = np.mod(i*skip,ni0)
+    itf = int(i*skip/(ni0))
     for j in range(nj):
-        jt = np.mod(j,nj0)
-        jtf = int(j/(nj0))
+        jt = np.mod(j*skip,nj0)
+        jtf = int(j*skip/(nj0))
         dx = basevect[0][0]*itf+basevect[1][0]*jtf
         dy = basevect[0][1]*itf+basevect[1][1]*jtf
         xt = r[it][jt][0]+dx
