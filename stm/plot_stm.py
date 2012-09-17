@@ -31,16 +31,7 @@ fnp=np.array(func)
 # Make plot
 gray=1.00
 
-cdict0 = {'red':   ((0.0,  gray, gray),
-                   (1.0,  1.0, 1.0)),
-
-         'green': ((0.0,  gray, gray),
-                   (1.0,  0.0, 0.0)),
-
-         'blue':  ((0.0,  gray, gray),
-                   (1.0,  0.0, 0.0))}
-
-cdict1 = {'red':   ((0.0,  gray, gray),
+cdict = {'red':   ((0.0,  gray, gray),
                    (1.0,  0.35, 0.35)),
 
          'green': ((0.0,  gray, gray),
@@ -49,10 +40,10 @@ cdict1 = {'red':   ((0.0,  gray, gray),
          'blue':  ((0.0,  gray, gray),
                    (1.0,  0.8, 0.8))}
 
-white_red = LinearSegmentedColormap('whiteRed', cdict1)
+white_red = LinearSegmentedColormap('whiteRed', cdict)
 
 
-fig=plt.figure(1,figsize=(8,5.5))
+fig=plt.figure(1,figsize=(7.0,7.0))
 
 params = {'font.size':15,
           'xtick.major.size': 5,
@@ -69,27 +60,10 @@ params = {'font.size':15,
           'savefig.dpi':80}
 
 plt.rcParams.update(params)
+ax=fig.add_subplot(111, aspect='equal')
 
-
-ax=fig.add_subplot(111)
-
-#ax.contour(x,y,func,cmap='whiteRed')
-zmin=0.001
-zmax=0.0035
-ncontours = 300
-levels=[]
-for i in range(ncontours):
-    levels.append(zmin+(zmax-zmin)/ncontours*i)
-
-#cm.copper.set_under('yellow')
-#cm.copper.set_over('cyan')
-#ax.contourf(x,y,func,levels=levels,cmap=white_red,linewidths=0.1,antialiased=True, extend='both')
-
-#ax.contourf(x,y,func,levels=levels,cmap=cm.copper)
-#ax.imshow(func,cmap=cm.copper)
 ax.pcolor(xnp,ynp,fnp,cmap=cm.copper)
-#ax.contourf(x,y,func,ncontours)
-#ax.set_zlim(zmin,zmax)
+
 
 if "-png" in args:
     plt.savefig('PLOT.png', orientation='portrait',format='png')
