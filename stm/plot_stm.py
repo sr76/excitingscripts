@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import parse_plot2d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,25 +9,44 @@ import sys
 
 args = sys.argv[1:]
 
-rootdir = "/home1/srigamonti/projects/stm/runs/1347622007185/"
-r, rl, func = parse_plot2d.parse_plot2d(rootdir+"input.xml", rootdir+"STM2d2D.XML")
+if "-tile" in args:
+    ind = args.index("-tile")
+    ti = int(args[ind+1]) 
+    tj = int(args[ind+2]) 
+else:
+    ti = 1
+    tj = 1
+    
+r, rl, basevect, func = parse_plot2d.parse_plot2d("input.xml", "STM2d2D.XML")
 
-nx = len(r)
-ny = len(r[0])
+bohrToAng = 0.529177249
+
+ni0 = len(r)
+nj0 = len(r[0])
+ni = ti * ni0
+nj = tj * nj0
 x=[]
 y=[]
-#f=[]
-for i in range(nx):
+f=[]
+for i in range(ni):
     x.append([])
     y.append([])
-#    f.append([])
-    for j in range(ny):
-        x[i].append(r[i][j][0])
-        y[i].append(r[i][j][1])
-#        f[i].append(func[i][j])
+    f.append([])
+    it = np.mod(i,ni0)
+    itf = int(i/(ni0))
+    for j in range(nj):
+        jt = np.mod(j,nj0)
+        jtf = int(j/(nj0))
+        dx = basevect[0][0]*itf+basevect[1][0]*jtf
+        dy = basevect[0][1]*itf+basevect[1][1]*jtf
+        xt = r[it][jt][0]+dx
+        yt = r[it][jt][1]+dy
+        x[i].append(xt * bohrToAng)
+        y[i].append(yt * bohrToAng)
+        f[i].append(func[it][jt])
 xnp=np.array(x)
 ynp=np.array(y)
-fnp=np.array(func)
+fnp=np.array(f)
 
 # Make plot
 gray=1.00
@@ -43,7 +63,7 @@ cdict = {'red':   ((0.0,  gray, gray),
 white_red = LinearSegmentedColormap('whiteRed', cdict)
 
 
-fig=plt.figure(1,figsize=(7.0,7.0))
+fig=plt.figure(1,figsize=(8.0,8.0))
 
 params = {'font.size':15,
           'xtick.major.size': 5,
@@ -64,6 +84,8 @@ ax=fig.add_subplot(111, aspect='equal')
 
 ax.pcolor(xnp,ynp,fnp,cmap=cm.copper)
 
+ax.set_xlabel("$\AA$")
+ax.set_ylabel("$\AA$")
 
 if "-png" in args:
     plt.savefig('PLOT.png', orientation='portrait',format='png')

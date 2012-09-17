@@ -5,9 +5,9 @@ from lxml import etree
 import xml_parsing_tools as xpt
 
 # This functions parses the files input.xml and the output 2D.XML from the plot2d element
-# and returns the vectors r[ngrid1][ngrid2], rl[ngrid1][ngrid2], and func[ngrid1][ngrid2],
+# and returns the vectors r[ngrid1][ngrid2], rl[ngrid1][ngrid2], basevect[3][3], and func[ngrid1][ngrid2],
 # which contain, respectively, the cartesian coordinates of the mesh in the parallelogram,
-# the lattice coordinates of the mesh and the function values.
+# the lattice coordinates of the mesh, the lattice vectors and the function values.
 
 
 def parse_plot2d(inputxmlpath,plot2dxmlpath):
@@ -69,7 +69,7 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
         for j in range(grid[1]):
             rl[i].append([])
             for lat in range(3):
-                rl[i][j].append( origin[lat] +  i * d[0][lat]/(grid[0]*1.0-1.0) +  j * d[1][lat]/(grid[1]*1.0-1.0) )
+                rl[i][j].append( origin[lat] +  i * d[0][lat]/(grid[0]*1.0) +  j * d[1][lat]/(grid[1]*1.0) )
 
     r=[]
     for i in range(grid[0]):
@@ -82,7 +82,7 @@ def parse_plot2d(inputxmlpath,plot2dxmlpath):
                     x = x + rl[i][j][l]*basevects[l][k]
                 r[i][j].append(x)
 
-    return r, rl, func
+    return r, rl, basevects, func
 
 
 
