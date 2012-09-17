@@ -76,7 +76,7 @@ ax=fig.add_subplot(111)
 #ax.contour(x,y,func,cmap='whiteRed')
 zmin=0.001
 zmax=0.0035
-ncontours = 10
+ncontours = 300
 levels=[]
 for i in range(ncontours):
     levels.append(zmin+(zmax-zmin)/ncontours*i)
@@ -84,7 +84,8 @@ for i in range(ncontours):
 #cm.copper.set_under('yellow')
 #cm.copper.set_over('cyan')
 #ax.contourf(x,y,func,levels=levels,cmap=white_red,linewidths=0.1,antialiased=True, extend='both')
-#ax.contourf(x,y,func,levels=levels,cmap=cm.copper,antialiased=True,extend='none')
+
+#ax.contourf(x,y,func,levels=levels,cmap=cm.copper)
 #ax.imshow(func,cmap=cm.copper)
 ax.pcolor(xnp,ynp,fnp,cmap=cm.copper)
 #ax.contourf(x,y,func,ncontours)
